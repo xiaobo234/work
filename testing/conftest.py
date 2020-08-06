@@ -4,7 +4,7 @@
 # sys.path.append('./testing')
 import requests
 import pytest
-@pytest.fixture()
+@pytest.fixture(scope='session')
 def login():
     url='https://npro.test.100url.cn/adminapi/login'
     header={"content-type":"application/json;charset=UTF-8"}

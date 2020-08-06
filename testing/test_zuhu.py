@@ -3,8 +3,19 @@
 
 import pytest
 import requests
-#空中课堂测试用例
+#租户管理测试用例
 class Testcase:
+    def test_index(self,login):
+        '''租户管理-进入租户管理模块主页'''
+        header = {
+            "content-type": "application/json",
+            "sessionId": login,
+        }
+        url = 'https://npro.test.100url.cn/adminapi/dept/depts?deptName=&pageNo=1&pageSize=10'
+        res = requests.get(url=url, headers=header)
+        print(res.status_code)
+        print(res.json()) #将返回的json数据转换成字典，然后打印出来
+        assert res.json()['data']['data'][0]["wechatDeptName"]=='沙海科技有限公司'  #从返回值种取出数据，然后用此数据进行断言
     def test_zuhufind(self,login):
         '''租户管理-按企业名称查询'''
         header = {
