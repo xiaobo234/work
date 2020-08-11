@@ -1,0 +1,2 @@
+200
+{'code': 0, 'msg': 'OK', 'data': {'totalCount': 1, 'data': [{'userUid': '30', 'userId': '456', 'userName': '代表A', 'mobile': '15801409675', 'gender': '女', 'email': '', 'deptName': '医百测试平台', 'enterpriseName': '医百测试平台', 'customerCount': 6, 'sendTimes': 24, 'openTimes': 128, 'loginTimes': 128, 'shareTimes': 2, 'avgSendTimes': 3, 'lastSendTime': 1597041712000, 'openPct': '533.33%', 'loginPct': '100.00%', 'sharePct': '1.56%'}]}}
