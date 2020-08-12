@@ -1,9 +1,11 @@
 #/usr/local/bin/python3.7
 # -*- coding:utf-8 -*-
-
 import pytest
 import requests
 import allure
+from  jsonpath  import jsonpath
+from hamcrest import *  #hamcrest第三方的库，一种断言方式
+
 #租户管理测试用例
 @allure.feature('租户管理')
 class Testcase:
@@ -54,7 +56,7 @@ class Testcase:
             print(res.json()) #将返回的json数据转换成字典，然后打印出来
         with allure.step('第三步：断言'):
             assert res.json()['data']['data'][0]["mobile"]=='17310141813'  #从返回值种取出数据，然后用此数据进行断言
-
+            assert_that(res.json()['data']['data'][0]["mobile"],'17310141813') #用asser_that方式进行断言
     @allure.title('用户管理主页-查询功能')
     @allure.story('用户管理主页-查询')
     def test_userfind(self,login):
