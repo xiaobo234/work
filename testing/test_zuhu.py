@@ -57,6 +57,7 @@ class Testcase:
         with allure.step('第三步：断言'):
             assert res.json()['data']['data'][0]["mobile"]=='17310141813'  #从返回值种取出数据，然后用此数据进行断言
             assert_that(res.json()['data']['data'][0]["mobile"],'17310141813') #用asser_that方式进行断言
+            assert jsonpath(res.json(),'$..mobile')[0]=="17310141813" #用jsonpath的方式匹配响应数据中的值，然后进行断言，
     @allure.title('用户管理主页-查询功能')
     @allure.story('用户管理主页-查询')
     def test_userfind(self,login):
