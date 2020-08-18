@@ -25,11 +25,11 @@ class Testcase:
             "content-type": "application/json",
             "sessionId": login,
         }
-        url = 'https://npro.test.100url.cn/adminapi/representative/list?flag=&taskId=&pageNo=1&pageSize=10&userName=&mobile=15801409675&enterpriseId=19'
+        url = 'https://npro.test.100url.cn/adminapi/representative/list?flag=&taskId=&pageNo=1&pageSize=10&userName=&mobile=17310141813&enterpriseId=19'
         res = requests.get(url=url, headers=header)
         print(res.status_code)
         print(res.json()) #将返回的json数据转换成字典，然后打印出来
-        assert res.json()['data']['data'][0]["mobile"]=='15801409675'  #从返回值种取出数据，然后用此数据进行断言
+        assert res.json()['data']['data'][0]["mobile"]=='17310141813'  #从返回值种取出数据，然后用此数据进行断言
     @allure.story('客户管理按钮')
     def test_kehufind(self,login):
         '''代表管理-客户管理按钮'''
