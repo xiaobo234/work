@@ -1,0 +1,94 @@
+{
+  "uid" : "5b214045ff5ecda5",
+  "name" : "test_fanye",
+  "fullName" : "testing.test_cverkehu.Testcase#test_fanye",
+  "historyId" : "148a85ed5ab402b1fd4de326ee8958c8",
+  "time" : {
+    "start" : 1598324730734,
+    "stop" : 1598324730837,
+    "duration" : 103
+  },
+  "description" : "转化用户管理-翻页",
+  "descriptionHtml" : "<p>转化用户管理-翻页</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1598324729796,
+      "stop" : 1598324729905,
+      "duration" : 109
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "转化用户管理-翻页",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fc6b45bc9e3a76ce",
+      "name" : "stdout",
+      "source" : "fc6b45bc9e3a76ce.txt",
+      "type" : "text/plain",
+      "size" : 5859
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "翻页"
+  }, {
+    "name" : "feature",
+    "value" : "转化客户"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testing"
+  }, {
+    "name" : "suite",
+    "value" : "test_cverkehu"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EMV04FR"
+  }, {
+    "name" : "thread",
+    "value" : "21716-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testing.test_cverkehu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5b214045ff5ecda5.json",
+  "parameterValues" : [ ]
+}

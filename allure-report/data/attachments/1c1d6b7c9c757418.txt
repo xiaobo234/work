@@ -1,0 +1,2 @@
+200
+{'code': 0, 'msg': 'OK', 'data': {'totalCount': 1, 'data': [{'id': 12, 'wechatDeptId': 19, 'wechatDeptName': '医百测试平台', 'saasCompanyId': '78', 'saasCompanyName': '这是个新的租户', 'saasCompanyUrl': 'kk.100live.cn', 'saasCompanyLogo': 'http://poster-1257099670.cosbj.myqcloud.com/0/5a80af89-9bcc-4f47-bb7c-3b703c982df9.jpg', 'status': 0, 'deleted': None, 'updateTime': 1596621602000, 'updateUserId': '8', 'statusDesc': '正常'}]}}

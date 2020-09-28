@@ -1,0 +1,98 @@
+{
+  "uid" : "9ad947a349bb4d15",
+  "name" : "test_index",
+  "fullName" : "testing.test_visit.Testcase#test_index",
+  "historyId" : "a141d1dcefb4fe7876966fb2ff876d8a",
+  "time" : {
+    "start" : 1601035134909,
+    "stop" : 1601035134971,
+    "duration" : 62
+  },
+  "description" : "线下拜访-进入线下拜访模块主页",
+  "descriptionHtml" : "<p>线下拜访-进入线下拜访模块主页</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 172 == 77",
+  "statusTrace" : "self = <test_visit.Testcase object at 0x000001B57C675C08>\nlogin = '3832e207-fc56-4d71-930b-d1415d9b4333'\n\n    @allure.story('获取拜访列表')\n    def test_index(self,login):\n        '''线下拜访-进入线下拜访模块主页'''\n        header = {\n            \"content-type\": \"application/json\",\n            \"sessionId\": login,\n        }\n        url='https://npro.test.100url.cn/adminapi/visit/list?pageSize=10&pageNo=1&enterpriseId=&userName=&startTime=&endTime='\n        res = requests.get(url=url, headers=header)\n        print(res.status_code)\n        print(res.json()) #将返回的json数据转换成字典，然后打印出来\n>       assert res.json()['data']['data'][0][\"id\"]==77  #从返回值种取出数据，然后用此数据进行断言\nE       assert 172 == 77\n\ntesting\\test_visit.py:19: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1601035132683,
+      "stop" : 1601035132877,
+      "duration" : 194
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "线下拜访-进入线下拜访模块主页",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 172 == 77",
+    "statusTrace" : "self = <test_visit.Testcase object at 0x000001B57C675C08>\nlogin = '3832e207-fc56-4d71-930b-d1415d9b4333'\n\n    @allure.story('获取拜访列表')\n    def test_index(self,login):\n        '''线下拜访-进入线下拜访模块主页'''\n        header = {\n            \"content-type\": \"application/json\",\n            \"sessionId\": login,\n        }\n        url='https://npro.test.100url.cn/adminapi/visit/list?pageSize=10&pageNo=1&enterpriseId=&userName=&startTime=&endTime='\n        res = requests.get(url=url, headers=header)\n        print(res.status_code)\n        print(res.json()) #将返回的json数据转换成字典，然后打印出来\n>       assert res.json()['data']['data'][0][\"id\"]==77  #从返回值种取出数据，然后用此数据进行断言\nE       assert 172 == 77\n\ntesting\\test_visit.py:19: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d8668c12bb83194d",
+      "name" : "stdout",
+      "source" : "d8668c12bb83194d.txt",
+      "type" : "text/plain",
+      "size" : 1573
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "线下拜访"
+  }, {
+    "name" : "story",
+    "value" : "获取拜访列表"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testing"
+  }, {
+    "name" : "suite",
+    "value" : "test_visit"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EMV04FR"
+  }, {
+    "name" : "thread",
+    "value" : "4980-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testing.test_visit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9ad947a349bb4d15.json",
+  "parameterValues" : [ ]
+}

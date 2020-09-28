@@ -1,0 +1,1 @@
+{'code': 0, 'msg': 'OK', 'data': {'totalCount': 1, 'data': [{'id': 3, 'enterpriseId': 19, 'templateTypeId': 1, 'createUserId': 8, 'status': 0, 'startTime': 1600773384000, 'endTime': 1600773384000, 'deleted': False, 'createTime': 1600773384000, 'updateUserId': 8, 'updateTime': 1600864089000, 'templateTypeName': '线下拜访', 'statusDesc': '启用'}]}}

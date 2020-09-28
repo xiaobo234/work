@@ -1,0 +1,94 @@
+{
+  "uid" : "e62fbb23ec46b01f",
+  "name" : "转发用户按钮功能",
+  "fullName" : "testing.test_conent.Testcase#test_transmit",
+  "historyId" : "7678315293ecdd43d671f7241a2ad122",
+  "time" : {
+    "start" : 1600861755529,
+    "stop" : 1600861755602,
+    "duration" : 73
+  },
+  "description" : "内容管理-转发用户按钮功能",
+  "descriptionHtml" : "<p>内容管理-转发用户按钮功能</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1600861754938,
+      "stop" : 1600861755018,
+      "duration" : 80
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "内容管理-转发用户按钮功能",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fc2c448337fbe16b",
+      "name" : "stdout",
+      "source" : "fc2c448337fbe16b.txt",
+      "type" : "text/plain",
+      "size" : 436
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "转发用户按钮"
+  }, {
+    "name" : "feature",
+    "value" : "内容管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testing"
+  }, {
+    "name" : "suite",
+    "value" : "test_conent"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EMV04FR"
+  }, {
+    "name" : "thread",
+    "value" : "21284-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testing.test_conent"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e62fbb23ec46b01f.json",
+  "parameterValues" : [ ]
+}

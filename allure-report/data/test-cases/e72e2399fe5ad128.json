@@ -1,0 +1,94 @@
+{
+  "uid" : "e72e2399fe5ad128",
+  "name" : "转化用户浏览按钮功能",
+  "fullName" : "testing.test_conent.Testcase#test_transmitread",
+  "historyId" : "cc8ab2b0c7f83c0afb2c9cdc51de58cb",
+  "time" : {
+    "start" : 1601035585005,
+    "stop" : 1601035585074,
+    "duration" : 69
+  },
+  "description" : "内容管理-转化用户浏览按钮",
+  "descriptionHtml" : "<p>内容管理-转化用户浏览按钮</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1601035584173,
+      "stop" : 1601035584254,
+      "duration" : 81
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "内容管理-转化用户浏览按钮",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c394d13db10ce67d",
+      "name" : "stdout",
+      "source" : "c394d13db10ce67d.txt",
+      "type" : "text/plain",
+      "size" : 2080
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "内容管理"
+  }, {
+    "name" : "story",
+    "value" : "转化用户浏览按钮"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testing"
+  }, {
+    "name" : "suite",
+    "value" : "test_conent"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EMV04FR"
+  }, {
+    "name" : "thread",
+    "value" : "6468-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testing.test_conent"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e72e2399fe5ad128.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,94 @@
+{
+  "uid" : "ae1d791a3237269a",
+  "name" : "test_index",
+  "fullName" : "testing.test_kehu.Testcase#test_index",
+  "historyId" : "0f49a7b613974b0b7beecf0b41b7d039",
+  "time" : {
+    "start" : 1598254876818,
+    "stop" : 1598254876888,
+    "duration" : 70
+  },
+  "description" : "客户管理-进入客户管理模块主页",
+  "descriptionHtml" : "<p>客户管理-进入客户管理模块主页</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1598254875583,
+      "stop" : 1598254875669,
+      "duration" : 86
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "客户管理-进入客户管理模块主页",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "75d6a96d9147bf8a",
+      "name" : "stdout",
+      "source" : "75d6a96d9147bf8a.txt",
+      "type" : "text/plain",
+      "size" : 3818
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "进入客户管理模块主页"
+  }, {
+    "name" : "feature",
+    "value" : "客户管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testing"
+  }, {
+    "name" : "suite",
+    "value" : "test_kehu"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EMV04FR"
+  }, {
+    "name" : "thread",
+    "value" : "22160-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testing.test_kehu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ae1d791a3237269a.json",
+  "parameterValues" : [ ]
+}

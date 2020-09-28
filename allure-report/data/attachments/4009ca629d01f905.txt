@@ -1,0 +1,1 @@
+{'code': 0, 'msg': 'OK', 'data': {'totalCount': 1, 'data': [{'id': '15', 'mobile': '17310141813', 'pwd': None, 'enterpriseId': 19, 'status': 0, 'createTime': 1596162033000, 'createUserId': '8', 'updateTime': 1596622307000, 'updateUserId': '8', 'statusDesc': '正常'}]}}

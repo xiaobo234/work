@@ -1,220 +1,350 @@
 [ {
-  "uid" : "eb67cba5f6f8696e",
-  "name" : "test_zuhufind",
+  "uid" : "66452cce6d06d261",
+  "name" : "test_fanye",
   "time" : {
-    "start" : 1597113313446,
-    "stop" : 1597113313541,
-    "duration" : 95
+    "start" : 1601035895375,
+    "stop" : 1601035895443,
+    "duration" : 68
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "db233b44bd3a7d5c",
-  "name" : "test_index",
+  "uid" : "13e1156707e4bedb",
+  "name" : "按企业名称查询",
   "time" : {
-    "start" : 1597113311630,
-    "stop" : 1597113311706,
-    "duration" : 76
+    "start" : 1601035895720,
+    "stop" : 1601035895781,
+    "duration" : 61
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1498d3bfceb5f1f5",
-  "name" : "test_indexfind",
+  "uid" : "5da74b1f9785549d",
+  "name" : "test_kehufind",
   "time" : {
-    "start" : 1597113311712,
-    "stop" : 1597113311801,
-    "duration" : 89
+    "start" : 1601035894637,
+    "stop" : 1601035894702,
+    "duration" : 65
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f1420dded56c96cf",
-  "name" : "test_index",
+  "uid" : "ac52243f1ac065c9",
+  "name" : "获取租户开通的功能列表",
   "time" : {
-    "start" : 1597113313048,
-    "stop" : 1597113313157,
-    "duration" : 109
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "68922a5843fe7bde",
-  "name" : "test_index",
-  "time" : {
-    "start" : 1597113312225,
-    "stop" : 1597113312346,
-    "duration" : 121
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "396d89a99ea5fe47",
-  "name" : "test_datail",
-  "time" : {
-    "start" : 1597113312886,
-    "stop" : 1597113312945,
+    "start" : 1601035895109,
+    "stop" : 1601035895168,
     "duration" : 59
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "cb359d315701eb3a",
-  "name" : "test_indexfind",
+  "uid" : "8826e00616c137de",
+  "name" : "翻页",
   "time" : {
-    "start" : 1597113313163,
-    "stop" : 1597113313243,
+    "start" : 1601035894184,
+    "stop" : 1601035894252,
+    "duration" : 68
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca35cd15c39b2db1",
+  "name" : "转化用户浏览按钮功能",
+  "time" : {
+    "start" : 1601035894100,
+    "stop" : 1601035894180,
     "duration" : 80
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "cd8f0fbd42f781aa",
-  "name" : "test_index",
+  "uid" : "c015d1c52d603c6a",
+  "name" : "浏览客户按钮功能",
   "time" : {
-    "start" : 1597113312550,
-    "stop" : 1597113312649,
-    "duration" : 99
+    "start" : 1601035893816,
+    "stop" : 1601035893882,
+    "duration" : 66
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "cc13f1a06d1a07d1",
-  "name" : "test_read",
-  "time" : {
-    "start" : 1597113312051,
-    "stop" : 1597113312137,
-    "duration" : 86
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9816697e4c5af9dc",
-  "name" : "test_fasong",
-  "time" : {
-    "start" : 1597113311809,
-    "stop" : 1597113311970,
-    "duration" : 161
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "50c307c8146234ae",
+  "uid" : "d643ee3b098b6797",
   "name" : "test_fanye",
   "time" : {
-    "start" : 1597113312453,
-    "stop" : 1597113312544,
-    "duration" : 91
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f31abb1315ab1fd8",
-  "name" : "test_userindex",
-  "time" : {
-    "start" : 1597113313546,
-    "stop" : 1597113313646,
-    "duration" : 100
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "678217e3d5f6f5fc",
-  "name" : "test_fanye",
-  "time" : {
-    "start" : 1597113312143,
-    "stop" : 1597113312219,
+    "start" : 1601035894422,
+    "stop" : 1601035894498,
     "duration" : 76
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "18602a690f91ea84",
-  "name" : "test_nofasong",
+  "uid" : "52e373450960c38f",
+  "name" : "代表发送按钮功能",
   "time" : {
-    "start" : 1597113311977,
-    "stop" : 1597113312046,
+    "start" : 1601035893673,
+    "stop" : 1601035893738,
+    "duration" : 65
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d8a404acc391af",
+  "name" : "代表未发送按钮功能",
+  "time" : {
+    "start" : 1601035893743,
+    "stop" : 1601035893812,
     "duration" : 69
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "92f48f162b5c5e22",
+  "uid" : "21a2055924182ac5",
+  "name" : "按企业名称查询",
+  "time" : {
+    "start" : 1601035893602,
+    "stop" : 1601035893668,
+    "duration" : 66
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "346df91fc4d9d22e",
+  "name" : "test_datail",
+  "time" : {
+    "start" : 1601035894707,
+    "stop" : 1601035894755,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b31a7836235b631",
+  "name" : "test_fanye",
+  "time" : {
+    "start" : 1601035894759,
+    "stop" : 1601035894822,
+    "duration" : 63
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9415c97dfafdd381",
   "name" : "test_indexfind",
   "time" : {
-    "start" : 1597113312667,
-    "stop" : 1597113312768,
-    "duration" : 101
+    "start" : 1601035894340,
+    "stop" : 1601035894417,
+    "duration" : 77
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "86fbe23ecf07fee4",
-  "name" : "test_userfind",
+  "uid" : "926d5ea173f88d04",
+  "name" : "进入用户管理主页",
   "time" : {
-    "start" : 1597113313691,
-    "stop" : 1597113313790,
-    "duration" : 99
+    "start" : 1600861756731,
+    "stop" : 1600861756800,
+    "duration" : 69
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3ef811cf4d46295e",
-  "name" : "test_fanye",
-  "time" : {
-    "start" : 1597113313796,
-    "stop" : 1597113314094,
-    "duration" : 298
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "177e77051099ec51",
-  "name" : "test_fanye",
-  "time" : {
-    "start" : 1597113312950,
-    "stop" : 1597113313036,
-    "duration" : 86
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fcb7c3ea431f797d",
+  "uid" : "1b2fb5b6a976cf64",
   "name" : "test_index",
   "time" : {
-    "start" : 1597113313334,
-    "stop" : 1597113313440,
-    "duration" : 106
+    "start" : 1601035895448,
+    "stop" : 1601035895509,
+    "duration" : 61
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c8b6b9376169dd31",
-  "name" : "test_fanye",
+  "uid" : "ae1c7cb7ed70819d",
+  "name" : "test_index",
   "time" : {
-    "start" : 1597113313249,
-    "stop" : 1597113313329,
-    "duration" : 80
+    "start" : 1601035894257,
+    "stop" : 1601035894334,
+    "duration" : 77
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ffd59dfd46aa7933",
+  "uid" : "5675711a5fdc6eb4",
   "name" : "test_indexfind",
   "time" : {
-    "start" : 1597113312351,
-    "stop" : 1597113312448,
-    "duration" : 97
+    "start" : 1601035894898,
+    "stop" : 1601035894966,
+    "duration" : 68
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f5b5e14717f6a40a",
-  "name" : "test_kehufind",
+  "uid" : "c5b2eb047fe3f443",
+  "name" : "test_index",
   "time" : {
-    "start" : 1597113312773,
-    "stop" : 1597113312872,
-    "duration" : 99
+    "start" : 1601035894827,
+    "stop" : 1601035894893,
+    "duration" : 66
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3b451f70755d56f3",
+  "name" : "控件类型",
+  "time" : {
+    "start" : 1601035895309,
+    "stop" : 1601035895371,
+    "duration" : 62
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9322a719fd2c77e",
+  "name" : "获取全部功能",
+  "time" : {
+    "start" : 1601035895042,
+    "stop" : 1601035895103,
+    "duration" : 61
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "30c493e9e1df6753",
+  "name" : "模板控件",
+  "time" : {
+    "start" : 1601035895240,
+    "stop" : 1601035895305,
+    "duration" : 65
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd13f3aeac3b379d",
+  "name" : "转发用户按钮功能",
+  "time" : {
+    "start" : 1601035894031,
+    "stop" : 1601035894094,
+    "duration" : 63
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97e56f74adaac0cb",
+  "name" : "拜访详情",
+  "time" : {
+    "start" : 1601035895514,
+    "stop" : 1601035895581,
+    "duration" : 67
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae3d019f068466bd",
+  "name" : "test_indexfind",
+  "time" : {
+    "start" : 1601035894569,
+    "stop" : 1601035894632,
+    "duration" : 63
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "906a59e331218a8a",
+  "name" : "用户管理主页-查询功能",
+  "time" : {
+    "start" : 1600861756805,
+    "stop" : 1600861756869,
+    "duration" : 64
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca7f38145f5eca2f",
+  "name" : "收到客户按钮功能",
+  "time" : {
+    "start" : 1601035893957,
+    "stop" : 1601035894026,
+    "duration" : 69
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55a655f6657e0305",
+  "name" : "进入内容管理模块主页",
+  "time" : {
+    "start" : 1601035893527,
+    "stop" : 1601035893597,
+    "duration" : 70
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "7dda5e4f4f54d2dd",
+  "name" : "打开客户按钮功能",
+  "time" : {
+    "start" : 1601035893887,
+    "stop" : 1601035893952,
+    "duration" : 65
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93ad734b34cef532",
+  "name" : "test_fanye",
+  "time" : {
+    "start" : 1601035895586,
+    "stop" : 1601035895645,
+    "duration" : 59
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f2f3e03c7ba8a72",
+  "name" : "进入租户管理模块主页",
+  "time" : {
+    "start" : 1601035895651,
+    "stop" : 1601035895715,
+    "duration" : 64
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd90a72b1c92b750",
+  "name" : "test_index",
+  "time" : {
+    "start" : 1601035894503,
+    "stop" : 1601035894564,
+    "duration" : 61
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac6dcd668d2d3bea",
+  "name" : "test_fanye",
+  "time" : {
+    "start" : 1601035894971,
+    "stop" : 1601035895037,
+    "duration" : 66
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff25aeee36851de7",
+  "name" : "获取模板列表",
+  "time" : {
+    "start" : 1601035895173,
+    "stop" : 1601035895235,
+    "duration" : 62
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2eb80246f427234",
+  "name" : "test_fanye",
+  "time" : {
+    "start" : 1601035895786,
+    "stop" : 1601035895852,
+    "duration" : 66
   },
   "status" : "passed",
   "severity" : "normal"

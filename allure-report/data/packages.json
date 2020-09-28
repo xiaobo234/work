@@ -4,81 +4,202 @@
   "children" : [ {
     "name" : "testing",
     "children" : [ {
-      "name" : "test_conent",
+      "name" : "test_zuhu",
       "children" : [ {
-        "name" : "test_index",
-        "uid" : "db233b44bd3a7d5c",
-        "parentUid" : "6b1d931aca796ee6e6ec571779402048",
+        "name" : "进入用户管理主页",
+        "uid" : "926d5ea173f88d04",
+        "parentUid" : "29ef934060c0dd563c9d8770ef6c4439",
         "status" : "passed",
         "time" : {
-          "start" : 1597113311630,
-          "stop" : 1597113311706,
-          "duration" : 76
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_indexfind",
-        "uid" : "1498d3bfceb5f1f5",
-        "parentUid" : "6b1d931aca796ee6e6ec571779402048",
-        "status" : "passed",
-        "time" : {
-          "start" : 1597113311712,
-          "stop" : 1597113311801,
-          "duration" : 89
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_fasong",
-        "uid" : "9816697e4c5af9dc",
-        "parentUid" : "6b1d931aca796ee6e6ec571779402048",
-        "status" : "passed",
-        "time" : {
-          "start" : 1597113311809,
-          "stop" : 1597113311970,
-          "duration" : 161
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_nofasong",
-        "uid" : "18602a690f91ea84",
-        "parentUid" : "6b1d931aca796ee6e6ec571779402048",
-        "status" : "passed",
-        "time" : {
-          "start" : 1597113311977,
-          "stop" : 1597113312046,
+          "start" : 1600861756731,
+          "stop" : 1600861756800,
           "duration" : 69
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "test_read",
-        "uid" : "cc13f1a06d1a07d1",
-        "parentUid" : "6b1d931aca796ee6e6ec571779402048",
+        "name" : "用户管理主页-查询功能",
+        "uid" : "906a59e331218a8a",
+        "parentUid" : "29ef934060c0dd563c9d8770ef6c4439",
         "status" : "passed",
         "time" : {
-          "start" : 1597113312051,
-          "stop" : 1597113312137,
-          "duration" : 86
+          "start" : 1600861756805,
+          "stop" : 1600861756869,
+          "duration" : 64
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "进入租户管理模块主页",
+        "uid" : "9f2f3e03c7ba8a72",
+        "parentUid" : "29ef934060c0dd563c9d8770ef6c4439",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601035895651,
+          "stop" : 1601035895715,
+          "duration" : 64
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "按企业名称查询",
+        "uid" : "13e1156707e4bedb",
+        "parentUid" : "29ef934060c0dd563c9d8770ef6c4439",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601035895720,
+          "stop" : 1601035895781,
+          "duration" : 61
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_fanye",
-        "uid" : "678217e3d5f6f5fc",
+        "uid" : "e2eb80246f427234",
+        "parentUid" : "29ef934060c0dd563c9d8770ef6c4439",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601035895786,
+          "stop" : 1601035895852,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "29ef934060c0dd563c9d8770ef6c4439"
+    }, {
+      "name" : "test_conent",
+      "children" : [ {
+        "name" : "进入内容管理模块主页",
+        "uid" : "55a655f6657e0305",
         "parentUid" : "6b1d931aca796ee6e6ec571779402048",
         "status" : "passed",
         "time" : {
-          "start" : 1597113312143,
-          "stop" : 1597113312219,
-          "duration" : 76
+          "start" : 1601035893527,
+          "stop" : 1601035893597,
+          "duration" : 70
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "按企业名称查询",
+        "uid" : "21a2055924182ac5",
+        "parentUid" : "6b1d931aca796ee6e6ec571779402048",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601035893602,
+          "stop" : 1601035893668,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "代表发送按钮功能",
+        "uid" : "52e373450960c38f",
+        "parentUid" : "6b1d931aca796ee6e6ec571779402048",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601035893673,
+          "stop" : 1601035893738,
+          "duration" : 65
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "代表未发送按钮功能",
+        "uid" : "5d8a404acc391af",
+        "parentUid" : "6b1d931aca796ee6e6ec571779402048",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601035893743,
+          "stop" : 1601035893812,
+          "duration" : 69
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "浏览客户按钮功能",
+        "uid" : "c015d1c52d603c6a",
+        "parentUid" : "6b1d931aca796ee6e6ec571779402048",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601035893816,
+          "stop" : 1601035893882,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "打开客户按钮功能",
+        "uid" : "7dda5e4f4f54d2dd",
+        "parentUid" : "6b1d931aca796ee6e6ec571779402048",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601035893887,
+          "stop" : 1601035893952,
+          "duration" : 65
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "收到客户按钮功能",
+        "uid" : "ca7f38145f5eca2f",
+        "parentUid" : "6b1d931aca796ee6e6ec571779402048",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601035893957,
+          "stop" : 1601035894026,
+          "duration" : 69
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "转发用户按钮功能",
+        "uid" : "cd13f3aeac3b379d",
+        "parentUid" : "6b1d931aca796ee6e6ec571779402048",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601035894031,
+          "stop" : 1601035894094,
+          "duration" : 63
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "转化用户浏览按钮功能",
+        "uid" : "ca35cd15c39b2db1",
+        "parentUid" : "6b1d931aca796ee6e6ec571779402048",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601035894100,
+          "stop" : 1601035894180,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "翻页",
+        "uid" : "8826e00616c137de",
+        "parentUid" : "6b1d931aca796ee6e6ec571779402048",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601035894184,
+          "stop" : 1601035894252,
+          "duration" : 68
         },
         "flaky" : false,
         "newFailed" : false,
@@ -89,39 +210,39 @@
       "name" : "test_cverkehu",
       "children" : [ {
         "name" : "test_index",
-        "uid" : "68922a5843fe7bde",
+        "uid" : "ae1c7cb7ed70819d",
         "parentUid" : "e140adac60a4e2906a47b3fe9646d4d7",
         "status" : "passed",
         "time" : {
-          "start" : 1597113312225,
-          "stop" : 1597113312346,
-          "duration" : 121
+          "start" : 1601035894257,
+          "stop" : 1601035894334,
+          "duration" : 77
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_indexfind",
-        "uid" : "ffd59dfd46aa7933",
+        "uid" : "9415c97dfafdd381",
         "parentUid" : "e140adac60a4e2906a47b3fe9646d4d7",
         "status" : "passed",
         "time" : {
-          "start" : 1597113312351,
-          "stop" : 1597113312448,
-          "duration" : 97
+          "start" : 1601035894340,
+          "stop" : 1601035894417,
+          "duration" : 77
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_fanye",
-        "uid" : "50c307c8146234ae",
+        "uid" : "d643ee3b098b6797",
         "parentUid" : "e140adac60a4e2906a47b3fe9646d4d7",
         "status" : "passed",
         "time" : {
-          "start" : 1597113312453,
-          "stop" : 1597113312544,
-          "duration" : 91
+          "start" : 1601035894422,
+          "stop" : 1601035894498,
+          "duration" : 76
         },
         "flaky" : false,
         "newFailed" : false,
@@ -132,65 +253,65 @@
       "name" : "test_daibiao",
       "children" : [ {
         "name" : "test_index",
-        "uid" : "cd8f0fbd42f781aa",
+        "uid" : "fd90a72b1c92b750",
         "parentUid" : "65fb13dbd6244124ec72fbee76c98e33",
         "status" : "passed",
         "time" : {
-          "start" : 1597113312550,
-          "stop" : 1597113312649,
-          "duration" : 99
+          "start" : 1601035894503,
+          "stop" : 1601035894564,
+          "duration" : 61
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_indexfind",
-        "uid" : "92f48f162b5c5e22",
+        "uid" : "ae3d019f068466bd",
         "parentUid" : "65fb13dbd6244124ec72fbee76c98e33",
         "status" : "passed",
         "time" : {
-          "start" : 1597113312667,
-          "stop" : 1597113312768,
-          "duration" : 101
+          "start" : 1601035894569,
+          "stop" : 1601035894632,
+          "duration" : 63
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_kehufind",
-        "uid" : "f5b5e14717f6a40a",
+        "uid" : "5da74b1f9785549d",
         "parentUid" : "65fb13dbd6244124ec72fbee76c98e33",
         "status" : "passed",
         "time" : {
-          "start" : 1597113312773,
-          "stop" : 1597113312872,
-          "duration" : 99
+          "start" : 1601035894637,
+          "stop" : 1601035894702,
+          "duration" : 65
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_datail",
-        "uid" : "396d89a99ea5fe47",
+        "uid" : "346df91fc4d9d22e",
         "parentUid" : "65fb13dbd6244124ec72fbee76c98e33",
         "status" : "passed",
         "time" : {
-          "start" : 1597113312886,
-          "stop" : 1597113312945,
-          "duration" : 59
+          "start" : 1601035894707,
+          "stop" : 1601035894755,
+          "duration" : 48
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_fanye",
-        "uid" : "177e77051099ec51",
+        "uid" : "9b31a7836235b631",
         "parentUid" : "65fb13dbd6244124ec72fbee76c98e33",
         "status" : "passed",
         "time" : {
-          "start" : 1597113312950,
-          "stop" : 1597113313036,
-          "duration" : 86
+          "start" : 1601035894759,
+          "stop" : 1601035894822,
+          "duration" : 63
         },
         "flaky" : false,
         "newFailed" : false,
@@ -201,39 +322,39 @@
       "name" : "test_kehu",
       "children" : [ {
         "name" : "test_index",
-        "uid" : "f1420dded56c96cf",
+        "uid" : "c5b2eb047fe3f443",
         "parentUid" : "6f11c3255317a69cf4464ae49e677030",
         "status" : "passed",
         "time" : {
-          "start" : 1597113313048,
-          "stop" : 1597113313157,
-          "duration" : 109
+          "start" : 1601035894827,
+          "stop" : 1601035894893,
+          "duration" : 66
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_indexfind",
-        "uid" : "cb359d315701eb3a",
+        "uid" : "5675711a5fdc6eb4",
         "parentUid" : "6f11c3255317a69cf4464ae49e677030",
         "status" : "passed",
         "time" : {
-          "start" : 1597113313163,
-          "stop" : 1597113313243,
-          "duration" : 80
+          "start" : 1601035894898,
+          "stop" : 1601035894966,
+          "duration" : 68
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_fanye",
-        "uid" : "c8b6b9376169dd31",
+        "uid" : "ac6dcd668d2d3bea",
         "parentUid" : "6f11c3255317a69cf4464ae49e677030",
         "status" : "passed",
         "time" : {
-          "start" : 1597113313249,
-          "stop" : 1597113313329,
-          "duration" : 80
+          "start" : 1601035894971,
+          "stop" : 1601035895037,
+          "duration" : 66
         },
         "flaky" : false,
         "newFailed" : false,
@@ -241,74 +362,130 @@
       } ],
       "uid" : "6f11c3255317a69cf4464ae49e677030"
     }, {
-      "name" : "test_zuhu",
+      "name" : "test_template",
       "children" : [ {
-        "name" : "test_index",
-        "uid" : "fcb7c3ea431f797d",
-        "parentUid" : "29ef934060c0dd563c9d8770ef6c4439",
+        "name" : "获取全部功能",
+        "uid" : "9322a719fd2c77e",
+        "parentUid" : "f341dfd1b60bdc2be908fda9b0d75641",
         "status" : "passed",
         "time" : {
-          "start" : 1597113313334,
-          "stop" : 1597113313440,
-          "duration" : 106
+          "start" : 1601035895042,
+          "stop" : 1601035895103,
+          "duration" : 61
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "test_zuhufind",
-        "uid" : "eb67cba5f6f8696e",
-        "parentUid" : "29ef934060c0dd563c9d8770ef6c4439",
+        "name" : "获取租户开通的功能列表",
+        "uid" : "ac52243f1ac065c9",
+        "parentUid" : "f341dfd1b60bdc2be908fda9b0d75641",
         "status" : "passed",
         "time" : {
-          "start" : 1597113313446,
-          "stop" : 1597113313541,
-          "duration" : 95
+          "start" : 1601035895109,
+          "stop" : 1601035895168,
+          "duration" : 59
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "test_userindex",
-        "uid" : "f31abb1315ab1fd8",
-        "parentUid" : "29ef934060c0dd563c9d8770ef6c4439",
+        "name" : "获取模板列表",
+        "uid" : "ff25aeee36851de7",
+        "parentUid" : "f341dfd1b60bdc2be908fda9b0d75641",
         "status" : "passed",
         "time" : {
-          "start" : 1597113313546,
-          "stop" : 1597113313646,
-          "duration" : 100
+          "start" : 1601035895173,
+          "stop" : 1601035895235,
+          "duration" : 62
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "test_userfind",
-        "uid" : "86fbe23ecf07fee4",
-        "parentUid" : "29ef934060c0dd563c9d8770ef6c4439",
+        "name" : "模板控件",
+        "uid" : "30c493e9e1df6753",
+        "parentUid" : "f341dfd1b60bdc2be908fda9b0d75641",
         "status" : "passed",
         "time" : {
-          "start" : 1597113313691,
-          "stop" : 1597113313790,
-          "duration" : 99
+          "start" : 1601035895240,
+          "stop" : 1601035895305,
+          "duration" : 65
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "控件类型",
+        "uid" : "3b451f70755d56f3",
+        "parentUid" : "f341dfd1b60bdc2be908fda9b0d75641",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601035895309,
+          "stop" : 1601035895371,
+          "duration" : 62
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_fanye",
-        "uid" : "3ef811cf4d46295e",
-        "parentUid" : "29ef934060c0dd563c9d8770ef6c4439",
+        "uid" : "66452cce6d06d261",
+        "parentUid" : "f341dfd1b60bdc2be908fda9b0d75641",
         "status" : "passed",
         "time" : {
-          "start" : 1597113313796,
-          "stop" : 1597113314094,
-          "duration" : 298
+          "start" : 1601035895375,
+          "stop" : 1601035895443,
+          "duration" : 68
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "29ef934060c0dd563c9d8770ef6c4439"
+      "uid" : "f341dfd1b60bdc2be908fda9b0d75641"
+    }, {
+      "name" : "test_visit",
+      "children" : [ {
+        "name" : "test_index",
+        "uid" : "1b2fb5b6a976cf64",
+        "parentUid" : "d4cbd65876b122904f9b3b62c81aaf55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601035895448,
+          "stop" : 1601035895509,
+          "duration" : 61
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "拜访详情",
+        "uid" : "97e56f74adaac0cb",
+        "parentUid" : "d4cbd65876b122904f9b3b62c81aaf55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601035895514,
+          "stop" : 1601035895581,
+          "duration" : 67
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_fanye",
+        "uid" : "93ad734b34cef532",
+        "parentUid" : "d4cbd65876b122904f9b3b62c81aaf55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601035895586,
+          "stop" : 1601035895645,
+          "duration" : 59
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d4cbd65876b122904f9b3b62c81aaf55"
     } ],
     "uid" : "905079df47201fbc78e17e71c049f8a7"
   } ]

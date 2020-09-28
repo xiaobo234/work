@@ -1,0 +1,94 @@
+{
+  "uid" : "3cfc79b74a2ba24f",
+  "name" : "代表未发送按钮功能",
+  "fullName" : "testing.test_conent.Testcase#test_nofasong",
+  "historyId" : "f8884a0b97e91b558e790806a583f33e",
+  "time" : {
+    "start" : 1598322366035,
+    "stop" : 1598322366123,
+    "duration" : 88
+  },
+  "description" : "内容管理-未发送代表",
+  "descriptionHtml" : "<p>内容管理-未发送代表</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1598322365603,
+      "stop" : 1598322365745,
+      "duration" : 142
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "内容管理-未发送代表",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a21297a46ef2ef2b",
+      "name" : "stdout",
+      "source" : "a21297a46ef2ef2b.txt",
+      "type" : "text/plain",
+      "size" : 834
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "未发送代表按钮"
+  }, {
+    "name" : "feature",
+    "value" : "内容管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testing"
+  }, {
+    "name" : "suite",
+    "value" : "test_conent"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EMV04FR"
+  }, {
+    "name" : "thread",
+    "value" : "8056-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testing.test_conent"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3cfc79b74a2ba24f.json",
+  "parameterValues" : [ ]
+}

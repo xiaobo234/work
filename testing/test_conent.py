@@ -48,7 +48,7 @@ class Testcase:
         res = requests.get(url=url, headers=header)
         print(res.status_code)
         print(res.json()) #将返回的json数据转换成字典，然后打印出来
-        assert res.json()['data']['data'][0]["userName"]=='管理员'  #从返回值种取出数据，然后用此数据进行断言
+        assert res.json()['data']['data'][0]["userName"]=='代表A'  #从返回值种取出数据，然后用此数据进行断言
     @allure.title('代表未发送按钮功能')
     @allure.story('未发送代表按钮')
     def test_nofasong(self,login):
@@ -61,21 +61,74 @@ class Testcase:
         res = requests.get(url=url, headers=header)
         print(res.status_code)
         print(res.json()) #将返回的json数据转换成字典，然后打印出来
-        assert res.json()['data']['data'][1]["userName"]=='代表B'  #从返回值种取出数据，然后用此数据进行断言
-    @allure.title('阅读客户按钮功能')
-    @allure.story('阅读客户按钮')
+        assert res.json()['data']['data'][1]["userName"]=='管理员'  #从返回值种取出数据，然后用此数据进行断言
+    @allure.title('浏览客户按钮功能')
+    @allure.story('浏览客户按钮')
     def test_read(self,login):
-        '''内容管理-阅读客户'''
+        '''内容管理-浏览客户按钮功能'''
         header = {
             "content-type": "application/json",
             "sessionId": login,
         }
-        url = 'https://npro.test.100url.cn/adminapi/customer/customers?taskId=49&pageNo=1&pageSize=10&enterpriseId=&externalUserName=&externalUserMobile='
+        url='https://npro.test.100url.cn/adminapi/customer/customers?taskId=106&pageNo=1&pageSize=10&enterpriseId=&externalUserName=&externalUserMobile=&eventType=2'
         res = requests.get(url=url, headers=header)
         print(res.status_code)
         print(res.json()) #将返回的json数据转换成字典，然后打印出来
-        assert res.json()['data']['data'][1]["representativeName"]=='代表A'  #从返回值种取出数据，然后用此数据进行断言
+        assert res.json()['data']['data'][0]["userName"]=='暖阳'  #从返回值种取出数据，然后用此数据进行断言
+    @allure.title('打开客户按钮功能')
+    @allure.story('打开客户按钮')
+    def test_open(self,login):
+        '''内容管理-打开客户按钮功能'''
+        header = {
+            "content-type": "application/json",
+            "sessionId": login,
+        }
+        url='https://npro.test.100url.cn/adminapi/customer/customers?taskId=106&pageNo=1&pageSize=10&enterpriseId=&externalUserName=&externalUserMobile=&eventType=3'
+        res = requests.get(url=url, headers=header)
+        print(res.status_code)
+        print(res.json()) #将返回的json数据转换成字典，然后打印出来
+        assert res.json()['data']['data'][0]["userName"]=='暖阳'  #从返回值种取出数据，然后用此数据进行断言
 
+    @allure.title('收到客户按钮功能')
+    @allure.story('收到客户按钮')
+    def test_receive(self,login):
+        '''内容管理-收到客户按钮功能'''
+        header = {
+            "content-type": "application/json",
+            "sessionId": login,
+        }
+        url='https://npro.test.100url.cn/adminapi/customer/customers?taskId=106&pageNo=1&pageSize=10&enterpriseId=&externalUserName=&externalUserMobile=&eventType=1'
+        res = requests.get(url=url, headers=header)
+        print(res.status_code)
+        print(res.json()) #将返回的json数据转换成字典，然后打印出来
+        assert res.json()['data']['data'][0]["userName"]=='暖阳'  #从返回值种取出数据，然后用此数据进行断言
+    @allure.title('转发用户按钮功能')
+    @allure.story('转发用户按钮')
+    def test_transmit(self,login):
+        '''内容管理-转发用户按钮功能'''
+        header = {
+            "content-type": "application/json",
+            "sessionId": login,
+        }
+        url='https://npro.test.100url.cn/adminapi/customer/customers?taskId=106&pageNo=1&pageSize=10&enterpriseId=&externalUserName=&externalUserMobile=&eventType=5'
+        res = requests.get(url=url, headers=header)
+        print(res.status_code)
+        print(res.json()) #将返回的json数据转换成字典，然后打印出来
+        assert res.json()['data']['data'][0]["userName"]=='暖阳'  #从返回值种取出数据，然后用此数据进行断言
+
+    @allure.title('转化用户浏览按钮功能')
+    @allure.story('转化用户浏览按钮')
+    def test_transmitread(self,login):
+        '''内容管理-转化用户浏览按钮'''
+        header = {
+            "content-type": "application/json",
+            "sessionId": login,
+        }
+        url='https://npro.test.100url.cn/adminapi/customer/conversionusers?pageNo=1&pageSize=10&representativeName=&enterpriseId=&registerTimeStart=&registerTimeEnd=&taskId=106'
+        res = requests.get(url=url, headers=header)
+        print(res.status_code)
+        print(res.json()) #将返回的json数据转换成字典，然后打印出来
+        assert res.json()['data']['data'][0]["externalUserName"]=='暖阳'  #从返回值种取出数据，然后用此数据进行断言
     @allure.title('翻页')
     @allure.story('翻页功能')
     def test_fanye(self, login):

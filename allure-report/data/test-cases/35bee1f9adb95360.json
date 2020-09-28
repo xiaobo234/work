@@ -1,0 +1,94 @@
+{
+  "uid" : "35bee1f9adb95360",
+  "name" : "代表发送按钮功能",
+  "fullName" : "testing.test_conent.Testcase#test_fasong",
+  "historyId" : "555d48ebbb609e5c8a2416d112a6728a",
+  "time" : {
+    "start" : 1597988927196,
+    "stop" : 1597988927271,
+    "duration" : 75
+  },
+  "description" : "内容管理-发送代表",
+  "descriptionHtml" : "<p>内容管理-发送代表</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1597988926872,
+      "stop" : 1597988927024,
+      "duration" : 152
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "内容管理-发送代表",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3e86f53d91cfc36b",
+      "name" : "stdout",
+      "source" : "3e86f53d91cfc36b.txt",
+      "type" : "text/plain",
+      "size" : 862
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "代表发送按钮功能"
+  }, {
+    "name" : "feature",
+    "value" : "内容管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testing"
+  }, {
+    "name" : "suite",
+    "value" : "test_conent"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EMV04FR"
+  }, {
+    "name" : "thread",
+    "value" : "22760-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testing.test_conent"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "35bee1f9adb95360.json",
+  "parameterValues" : [ ]
+}

@@ -17,7 +17,7 @@ class Testcase:
         res = requests.get(url=url, headers=header)
         print(res.status_code)
         print(res.json()) #将返回的json数据转换成字典，然后打印出来
-        assert res.json()['data']['data'][0]["deptName"]=='沙海科技有限公司'  #从返回值种取出数据，然后用此数据进行断言
+        assert res.status_code==200 #从返回值种取出数据，然后用此数据进行断言
     @allure.story('按企业名称+手机号查询')
     def test_indexfind(self,login):
         '''客户管理-按企业名称+手机号查询'''

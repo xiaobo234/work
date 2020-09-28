@@ -1,0 +1,94 @@
+{
+  "uid" : "dbcbdfd16e9cf6fc",
+  "name" : "翻页",
+  "fullName" : "testing.test_conent.Testcase#test_fanye",
+  "historyId" : "b155c3a6de410374394f9e781cba400c",
+  "time" : {
+    "start" : 1598265157659,
+    "stop" : 1598265157725,
+    "duration" : 66
+  },
+  "description" : "转化用户管理-翻页",
+  "descriptionHtml" : "<p>转化用户管理-翻页</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1598265156841,
+      "stop" : 1598265157251,
+      "duration" : 410
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "转化用户管理-翻页",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "358825b777f95ffe",
+      "name" : "stdout",
+      "source" : "358825b777f95ffe.txt",
+      "type" : "text/plain",
+      "size" : 2548
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "内容管理"
+  }, {
+    "name" : "story",
+    "value" : "翻页功能"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testing"
+  }, {
+    "name" : "suite",
+    "value" : "test_conent"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EMV04FR"
+  }, {
+    "name" : "thread",
+    "value" : "24444-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testing.test_conent"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dbcbdfd16e9cf6fc.json",
+  "parameterValues" : [ ]
+}

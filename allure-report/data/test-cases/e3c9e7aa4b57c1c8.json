@@ -1,0 +1,94 @@
+{
+  "uid" : "e3c9e7aa4b57c1c8",
+  "name" : "test_fanye",
+  "fullName" : "testing.test_zuhu.Testcase#test_fanye",
+  "historyId" : "11028c6bfc69c10ac2e251792b1e2720",
+  "time" : {
+    "start" : 1598263510873,
+    "stop" : 1598263510939,
+    "duration" : 66
+  },
+  "description" : "客户管理-翻页",
+  "descriptionHtml" : "<p>客户管理-翻页</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1598263507897,
+      "stop" : 1598263507992,
+      "duration" : 95
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "客户管理-翻页",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ea803e7b648aaa02",
+      "name" : "stdout",
+      "source" : "ea803e7b648aaa02.txt",
+      "type" : "text/plain",
+      "size" : 829
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "翻页"
+  }, {
+    "name" : "feature",
+    "value" : "租户管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testing"
+  }, {
+    "name" : "suite",
+    "value" : "test_zuhu"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EMV04FR"
+  }, {
+    "name" : "thread",
+    "value" : "3896-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testing.test_zuhu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e3c9e7aa4b57c1c8.json",
+  "parameterValues" : [ ]
+}

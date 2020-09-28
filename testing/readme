@@ -1,0 +1,2 @@
+1、allure-results:这个是jenkens运行脚本时生成的测试数据
+2、allure-report:这个是jenkens运行脚本时生成的测试报告

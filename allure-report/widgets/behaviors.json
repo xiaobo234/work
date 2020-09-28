@@ -1,8 +1,19 @@
 {
-  "total" : 5,
+  "total" : 7,
   "items" : [ {
     "uid" : "666e83f41df3f5de02fb3a32c25435c9",
     "name" : "内容管理",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "9e7ca7adea897bfb6feda1bc382f4dd7",
+    "name" : "模板管理",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -12,8 +23,8 @@
       "total" : 6
     }
   }, {
-    "uid" : "718fc75e293e66d156f05cf21d6deac2",
-    "name" : "代表管理",
+    "uid" : "e15977433c66c6122f6006a349a82794",
+    "name" : "租户管理",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -23,8 +34,8 @@
       "total" : 5
     }
   }, {
-    "uid" : "e15977433c66c6122f6006a349a82794",
-    "name" : "租户管理",
+    "uid" : "718fc75e293e66d156f05cf21d6deac2",
+    "name" : "代表管理",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -47,6 +58,17 @@
   }, {
     "uid" : "6106aa764be39e7f3e233b5872264d1a",
     "name" : "客户管理",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "26e932b1ad97b7677f68bcdc2e9ef3ff",
+    "name" : "线下拜访",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
