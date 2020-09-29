@@ -1,0 +1,2 @@
+200
+{'code': 0, 'msg': 'OK', 'data': {'totalCount': 1, 'data': [{'typeId': 1, 'typeName': '线下拜访'}]}}

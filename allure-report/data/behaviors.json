@@ -7,7 +7,7 @@
       "name" : "进入用户管理主页",
       "children" : [ {
         "name" : "进入用户管理主页",
-        "uid" : "926d5ea173f88d04",
+        "uid" : "5950def6c95fa4d",
         "parentUid" : "95e16133928342d95b31dbee78d16de6",
         "status" : "passed",
         "time" : {
@@ -24,7 +24,7 @@
       "name" : "用户管理主页-查询",
       "children" : [ {
         "name" : "用户管理主页-查询功能",
-        "uid" : "906a59e331218a8a",
+        "uid" : "32e74ffb6830e42b",
         "parentUid" : "3dbdd5bcfb53a902538489dd742c194c",
         "status" : "passed",
         "time" : {
@@ -38,33 +38,84 @@
       } ],
       "uid" : "3dbdd5bcfb53a902538489dd742c194c"
     }, {
-      "name" : "进入租户管理模块主页",
+      "name" : "获取企业微信一级部门列表",
       "children" : [ {
         "name" : "进入租户管理模块主页",
-        "uid" : "9f2f3e03c7ba8a72",
-        "parentUid" : "dbd78de12e3d1fd8d5a8ead3b96f270d",
+        "uid" : "ce56ee289b00d5d1",
+        "parentUid" : "548868e477bcb1413b4e956e7cc8ad50",
         "status" : "passed",
         "time" : {
-          "start" : 1601035895651,
-          "stop" : 1601035895715,
+          "start" : 1601295848481,
+          "stop" : 1601295848546,
+          "duration" : 65
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "548868e477bcb1413b4e956e7cc8ad50"
+    }, {
+      "name" : "获取租户下拉绑定列表",
+      "children" : [ {
+        "name" : "test_enterprises",
+        "uid" : "237c58af1b0cfe49",
+        "parentUid" : "f6bf6da524a8a278ff1593860e121879",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601295848551,
+          "stop" : 1601295848612,
+          "duration" : 61
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f6bf6da524a8a278ff1593860e121879"
+    }, {
+      "name" : "停用租户",
+      "children" : [ {
+        "name" : "test_disable",
+        "uid" : "d0933f56fee23f81",
+        "parentUid" : "ed046776262e2bd3e78c6543f39ffd05",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601295848618,
+          "stop" : 1601295848681,
+          "duration" : 63
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ed046776262e2bd3e78c6543f39ffd05"
+    }, {
+      "name" : "添加企业微信部门与saas租户的mapping关系",
+      "children" : [ {
+        "name" : "test_enable",
+        "uid" : "3c2e88010056402e",
+        "parentUid" : "6485d2e56891918ba08adda38f91bb30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601295848687,
+          "stop" : 1601295848751,
           "duration" : 64
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "dbd78de12e3d1fd8d5a8ead3b96f270d"
+      "uid" : "6485d2e56891918ba08adda38f91bb30"
     }, {
       "name" : "按企业名称查询",
       "children" : [ {
         "name" : "按企业名称查询",
-        "uid" : "13e1156707e4bedb",
+        "uid" : "21cbd35d5fed5fdd",
         "parentUid" : "f58e4945765f2172fe7086c5ca38e17f",
         "status" : "passed",
         "time" : {
-          "start" : 1601035895720,
-          "stop" : 1601035895781,
-          "duration" : 61
+          "start" : 1601295848754,
+          "stop" : 1601295848819,
+          "duration" : 65
         },
         "flaky" : false,
         "newFailed" : false,
@@ -75,13 +126,13 @@
       "name" : "翻页",
       "children" : [ {
         "name" : "test_fanye",
-        "uid" : "e2eb80246f427234",
+        "uid" : "b16326c03bb1b70a",
         "parentUid" : "88467ca9f25992d04c5f032de5147d83",
         "status" : "passed",
         "time" : {
-          "start" : 1601035895786,
-          "stop" : 1601035895852,
-          "duration" : 66
+          "start" : 1601295848824,
+          "stop" : 1601295848897,
+          "duration" : 73
         },
         "flaky" : false,
         "newFailed" : false,
@@ -96,13 +147,13 @@
       "name" : "进入内容管理模块主页",
       "children" : [ {
         "name" : "进入内容管理模块主页",
-        "uid" : "55a655f6657e0305",
+        "uid" : "ae17a75a555ba931",
         "parentUid" : "070e4ab2eeb5352150a92ed2dab4b524",
         "status" : "passed",
         "time" : {
-          "start" : 1601035893527,
-          "stop" : 1601035893597,
-          "duration" : 70
+          "start" : 1601295846289,
+          "stop" : 1601295846357,
+          "duration" : 68
         },
         "flaky" : false,
         "newFailed" : false,
@@ -113,12 +164,12 @@
       "name" : "按企业名称查询",
       "children" : [ {
         "name" : "按企业名称查询",
-        "uid" : "21a2055924182ac5",
+        "uid" : "89798305c4e915b3",
         "parentUid" : "45edc8b57b42e4574a026ff29ec8b8a8",
         "status" : "passed",
         "time" : {
-          "start" : 1601035893602,
-          "stop" : 1601035893668,
+          "start" : 1601295846363,
+          "stop" : 1601295846429,
           "duration" : 66
         },
         "flaky" : false,
@@ -130,13 +181,13 @@
       "name" : "代表发送按钮功能",
       "children" : [ {
         "name" : "代表发送按钮功能",
-        "uid" : "52e373450960c38f",
+        "uid" : "5346ec6cf73369c",
         "parentUid" : "a41048d9dd011722b10885163e47057d",
         "status" : "passed",
         "time" : {
-          "start" : 1601035893673,
-          "stop" : 1601035893738,
-          "duration" : 65
+          "start" : 1601295846434,
+          "stop" : 1601295846511,
+          "duration" : 77
         },
         "flaky" : false,
         "newFailed" : false,
@@ -147,13 +198,13 @@
       "name" : "未发送代表按钮",
       "children" : [ {
         "name" : "代表未发送按钮功能",
-        "uid" : "5d8a404acc391af",
+        "uid" : "bd9485334f9b4987",
         "parentUid" : "599d2d537a6c215c6a35907d5b2e1c2a",
         "status" : "passed",
         "time" : {
-          "start" : 1601035893743,
-          "stop" : 1601035893812,
-          "duration" : 69
+          "start" : 1601295846516,
+          "stop" : 1601295846582,
+          "duration" : 66
         },
         "flaky" : false,
         "newFailed" : false,
@@ -164,13 +215,13 @@
       "name" : "浏览客户按钮",
       "children" : [ {
         "name" : "浏览客户按钮功能",
-        "uid" : "c015d1c52d603c6a",
+        "uid" : "baaa65780e92e8cd",
         "parentUid" : "5e59fabce68cf3867e734102cfcfcab6",
         "status" : "passed",
         "time" : {
-          "start" : 1601035893816,
-          "stop" : 1601035893882,
-          "duration" : 66
+          "start" : 1601295846587,
+          "stop" : 1601295846659,
+          "duration" : 72
         },
         "flaky" : false,
         "newFailed" : false,
@@ -181,13 +232,13 @@
       "name" : "打开客户按钮",
       "children" : [ {
         "name" : "打开客户按钮功能",
-        "uid" : "7dda5e4f4f54d2dd",
+        "uid" : "42cbc68e96d93bcd",
         "parentUid" : "5de39ab4dff8b3919f12f6526b5d5125",
         "status" : "passed",
         "time" : {
-          "start" : 1601035893887,
-          "stop" : 1601035893952,
-          "duration" : 65
+          "start" : 1601295846664,
+          "stop" : 1601295846730,
+          "duration" : 66
         },
         "flaky" : false,
         "newFailed" : false,
@@ -198,13 +249,13 @@
       "name" : "收到客户按钮",
       "children" : [ {
         "name" : "收到客户按钮功能",
-        "uid" : "ca7f38145f5eca2f",
+        "uid" : "a7d87393357f4e89",
         "parentUid" : "54d08184e6e13d8613974a8c7190e537",
         "status" : "passed",
         "time" : {
-          "start" : 1601035893957,
-          "stop" : 1601035894026,
-          "duration" : 69
+          "start" : 1601295846735,
+          "stop" : 1601295846807,
+          "duration" : 72
         },
         "flaky" : false,
         "newFailed" : false,
@@ -215,12 +266,12 @@
       "name" : "转发用户按钮",
       "children" : [ {
         "name" : "转发用户按钮功能",
-        "uid" : "cd13f3aeac3b379d",
+        "uid" : "b7ec0b8f5a7b126",
         "parentUid" : "ddd102ea3e793bbf26f8eeaf10bbe2b4",
         "status" : "passed",
         "time" : {
-          "start" : 1601035894031,
-          "stop" : 1601035894094,
+          "start" : 1601295846814,
+          "stop" : 1601295846877,
           "duration" : 63
         },
         "flaky" : false,
@@ -232,13 +283,13 @@
       "name" : "转化用户浏览按钮",
       "children" : [ {
         "name" : "转化用户浏览按钮功能",
-        "uid" : "ca35cd15c39b2db1",
+        "uid" : "91e1dbc248ecc542",
         "parentUid" : "52daf4ca5ba1438c666f7f408037970c",
         "status" : "passed",
         "time" : {
-          "start" : 1601035894100,
-          "stop" : 1601035894180,
-          "duration" : 80
+          "start" : 1601295846883,
+          "stop" : 1601295846952,
+          "duration" : 69
         },
         "flaky" : false,
         "newFailed" : false,
@@ -249,13 +300,13 @@
       "name" : "翻页功能",
       "children" : [ {
         "name" : "翻页",
-        "uid" : "8826e00616c137de",
+        "uid" : "1f42a365fa690fcf",
         "parentUid" : "998105cd17e38d86589392c4dcdfbad7",
         "status" : "passed",
         "time" : {
-          "start" : 1601035894184,
-          "stop" : 1601035894252,
-          "duration" : 68
+          "start" : 1601295846958,
+          "stop" : 1601295847054,
+          "duration" : 96
         },
         "flaky" : false,
         "newFailed" : false,
@@ -270,13 +321,13 @@
       "name" : "进入转化用户管理模块主页",
       "children" : [ {
         "name" : "test_index",
-        "uid" : "ae1c7cb7ed70819d",
+        "uid" : "c0ad35f28e5be422",
         "parentUid" : "d9ecd070bd061670471159bdabdca91c",
         "status" : "passed",
         "time" : {
-          "start" : 1601035894257,
-          "stop" : 1601035894334,
-          "duration" : 77
+          "start" : 1601295847060,
+          "stop" : 1601295847144,
+          "duration" : 84
         },
         "flaky" : false,
         "newFailed" : false,
@@ -287,13 +338,13 @@
       "name" : "按企业名称查询",
       "children" : [ {
         "name" : "test_indexfind",
-        "uid" : "9415c97dfafdd381",
+        "uid" : "7783ffc9a5934ac2",
         "parentUid" : "c95e16451ca152e400f3b2a3fffa24a2",
         "status" : "passed",
         "time" : {
-          "start" : 1601035894340,
-          "stop" : 1601035894417,
-          "duration" : 77
+          "start" : 1601295847149,
+          "stop" : 1601295847227,
+          "duration" : 78
         },
         "flaky" : false,
         "newFailed" : false,
@@ -304,13 +355,13 @@
       "name" : "翻页",
       "children" : [ {
         "name" : "test_fanye",
-        "uid" : "d643ee3b098b6797",
+        "uid" : "470124834a38077a",
         "parentUid" : "47b93ba08789a452db7a3e02016d7fa4",
         "status" : "passed",
         "time" : {
-          "start" : 1601035894422,
-          "stop" : 1601035894498,
-          "duration" : 76
+          "start" : 1601295847231,
+          "stop" : 1601295847305,
+          "duration" : 74
         },
         "flaky" : false,
         "newFailed" : false,
@@ -325,13 +376,13 @@
       "name" : "进入代表管理模块主页",
       "children" : [ {
         "name" : "test_index",
-        "uid" : "fd90a72b1c92b750",
+        "uid" : "91142210eb35143b",
         "parentUid" : "46a32db0c591df9edc8251e727467b72",
         "status" : "passed",
         "time" : {
-          "start" : 1601035894503,
-          "stop" : 1601035894564,
-          "duration" : 61
+          "start" : 1601295847310,
+          "stop" : 1601295847375,
+          "duration" : 65
         },
         "flaky" : false,
         "newFailed" : false,
@@ -342,12 +393,12 @@
       "name" : "按企业名称+手机号查询",
       "children" : [ {
         "name" : "test_indexfind",
-        "uid" : "ae3d019f068466bd",
+        "uid" : "c250f08874dd1bc2",
         "parentUid" : "0e84c5c5f7e2267ec88e026858bfa896",
         "status" : "passed",
         "time" : {
-          "start" : 1601035894569,
-          "stop" : 1601035894632,
+          "start" : 1601295847380,
+          "stop" : 1601295847443,
           "duration" : 63
         },
         "flaky" : false,
@@ -359,13 +410,13 @@
       "name" : "客户管理按钮",
       "children" : [ {
         "name" : "test_kehufind",
-        "uid" : "5da74b1f9785549d",
+        "uid" : "dda5a634b473b9fb",
         "parentUid" : "c2b21f9e79cdc8b15c79331eda1e3a37",
         "status" : "passed",
         "time" : {
-          "start" : 1601035894637,
-          "stop" : 1601035894702,
-          "duration" : 65
+          "start" : 1601295847448,
+          "stop" : 1601295847519,
+          "duration" : 71
         },
         "flaky" : false,
         "newFailed" : false,
@@ -376,12 +427,12 @@
       "name" : "查看详情",
       "children" : [ {
         "name" : "test_datail",
-        "uid" : "346df91fc4d9d22e",
+        "uid" : "4b24a464d5624541",
         "parentUid" : "aeb0b584e0548ce10737eef1dfde1438",
         "status" : "passed",
         "time" : {
-          "start" : 1601035894707,
-          "stop" : 1601035894755,
+          "start" : 1601295847524,
+          "stop" : 1601295847572,
           "duration" : 48
         },
         "flaky" : false,
@@ -393,13 +444,13 @@
       "name" : "翻页",
       "children" : [ {
         "name" : "test_fanye",
-        "uid" : "9b31a7836235b631",
+        "uid" : "cdeb8c591f06837f",
         "parentUid" : "ad35fcbe1430ef1728cb386a2030bb59",
         "status" : "passed",
         "time" : {
-          "start" : 1601035894759,
-          "stop" : 1601035894822,
-          "duration" : 63
+          "start" : 1601295847575,
+          "stop" : 1601295847637,
+          "duration" : 62
         },
         "flaky" : false,
         "newFailed" : false,
@@ -414,13 +465,13 @@
       "name" : "进入客户管理模块主页",
       "children" : [ {
         "name" : "test_index",
-        "uid" : "c5b2eb047fe3f443",
+        "uid" : "384eba1758ada3da",
         "parentUid" : "222264078eca51cff73d83c4fd742660",
         "status" : "passed",
         "time" : {
-          "start" : 1601035894827,
-          "stop" : 1601035894893,
-          "duration" : 66
+          "start" : 1601295847642,
+          "stop" : 1601295847713,
+          "duration" : 71
         },
         "flaky" : false,
         "newFailed" : false,
@@ -431,13 +482,13 @@
       "name" : "按企业名称+手机号查询",
       "children" : [ {
         "name" : "test_indexfind",
-        "uid" : "5675711a5fdc6eb4",
+        "uid" : "e0d94977181c2a5",
         "parentUid" : "bff1fa0f5bab93fa1b8353cc809b27b9",
         "status" : "passed",
         "time" : {
-          "start" : 1601035894898,
-          "stop" : 1601035894966,
-          "duration" : 68
+          "start" : 1601295847718,
+          "stop" : 1601295847781,
+          "duration" : 63
         },
         "flaky" : false,
         "newFailed" : false,
@@ -448,13 +499,13 @@
       "name" : "翻页",
       "children" : [ {
         "name" : "test_fanye",
-        "uid" : "ac6dcd668d2d3bea",
+        "uid" : "cf2da458565752d9",
         "parentUid" : "292f551843ce6ab382f4899d72352e1b",
         "status" : "passed",
         "time" : {
-          "start" : 1601035894971,
-          "stop" : 1601035895037,
-          "duration" : 66
+          "start" : 1601295847786,
+          "stop" : 1601295847855,
+          "duration" : 69
         },
         "flaky" : false,
         "newFailed" : false,
@@ -469,13 +520,13 @@
       "name" : "获取全部功能列表",
       "children" : [ {
         "name" : "获取全部功能",
-        "uid" : "9322a719fd2c77e",
+        "uid" : "3d8944abd52e41f7",
         "parentUid" : "ebef3f1ca2b222c976b8c2a7a7063a99",
         "status" : "passed",
         "time" : {
-          "start" : 1601035895042,
-          "stop" : 1601035895103,
-          "duration" : 61
+          "start" : 1601295847860,
+          "stop" : 1601295847923,
+          "duration" : 63
         },
         "flaky" : false,
         "newFailed" : false,
@@ -486,13 +537,13 @@
       "name" : "查看开通的功能列表",
       "children" : [ {
         "name" : "获取租户开通的功能列表",
-        "uid" : "ac52243f1ac065c9",
+        "uid" : "5427c1b2e890fff7",
         "parentUid" : "78fbc02c83665fd4a70675d9d8e12f47",
         "status" : "passed",
         "time" : {
-          "start" : 1601035895109,
-          "stop" : 1601035895168,
-          "duration" : 59
+          "start" : 1601295847928,
+          "stop" : 1601295847990,
+          "duration" : 62
         },
         "flaky" : false,
         "newFailed" : false,
@@ -503,13 +554,13 @@
       "name" : "获取模板的列表",
       "children" : [ {
         "name" : "获取模板列表",
-        "uid" : "ff25aeee36851de7",
+        "uid" : "7ed10282e97eba26",
         "parentUid" : "60caa5fe8b13a29eb96315653bc9e92c",
         "status" : "passed",
         "time" : {
-          "start" : 1601035895173,
-          "stop" : 1601035895235,
-          "duration" : 62
+          "start" : 1601295847995,
+          "stop" : 1601295848060,
+          "duration" : 65
         },
         "flaky" : false,
         "newFailed" : false,
@@ -520,13 +571,13 @@
       "name" : "获取模板控件列表",
       "children" : [ {
         "name" : "模板控件",
-        "uid" : "30c493e9e1df6753",
+        "uid" : "7d04bc9436f5395d",
         "parentUid" : "0de2d1540c96ea55d8007e7fda7f9e90",
         "status" : "passed",
         "time" : {
-          "start" : 1601035895240,
-          "stop" : 1601035895305,
-          "duration" : 65
+          "start" : 1601295848065,
+          "stop" : 1601295848125,
+          "duration" : 60
         },
         "flaky" : false,
         "newFailed" : false,
@@ -537,13 +588,13 @@
       "name" : "获取控件类型列表",
       "children" : [ {
         "name" : "控件类型",
-        "uid" : "3b451f70755d56f3",
+        "uid" : "b984e63ec525c867",
         "parentUid" : "918c74d4a90874652babff7ba2a9758f",
         "status" : "passed",
         "time" : {
-          "start" : 1601035895309,
-          "stop" : 1601035895371,
-          "duration" : 62
+          "start" : 1601295848129,
+          "stop" : 1601295848190,
+          "duration" : 61
         },
         "flaky" : false,
         "newFailed" : false,
@@ -554,13 +605,13 @@
       "name" : "翻页",
       "children" : [ {
         "name" : "test_fanye",
-        "uid" : "66452cce6d06d261",
+        "uid" : "2dddb5bdaa54a59b",
         "parentUid" : "bf36bae32f3283ee647a6a071e237510",
         "status" : "passed",
         "time" : {
-          "start" : 1601035895375,
-          "stop" : 1601035895443,
-          "duration" : 68
+          "start" : 1601295848194,
+          "stop" : 1601295848265,
+          "duration" : 71
         },
         "flaky" : false,
         "newFailed" : false,
@@ -575,13 +626,13 @@
       "name" : "获取拜访列表",
       "children" : [ {
         "name" : "test_index",
-        "uid" : "1b2fb5b6a976cf64",
+        "uid" : "f8b54161232951f4",
         "parentUid" : "f7c929fbd53168ac852395efbfcd12c1",
         "status" : "passed",
         "time" : {
-          "start" : 1601035895448,
-          "stop" : 1601035895509,
-          "duration" : 61
+          "start" : 1601295848270,
+          "stop" : 1601295848337,
+          "duration" : 67
         },
         "flaky" : false,
         "newFailed" : false,
@@ -592,13 +643,13 @@
       "name" : "查看拜访详情",
       "children" : [ {
         "name" : "拜访详情",
-        "uid" : "97e56f74adaac0cb",
+        "uid" : "c8dbde500efc3d7e",
         "parentUid" : "b5b0b58b40cd047b634b6cfca0b88f2a",
         "status" : "passed",
         "time" : {
-          "start" : 1601035895514,
-          "stop" : 1601035895581,
-          "duration" : 67
+          "start" : 1601295848342,
+          "stop" : 1601295848403,
+          "duration" : 61
         },
         "flaky" : false,
         "newFailed" : false,
@@ -609,13 +660,13 @@
       "name" : "翻页",
       "children" : [ {
         "name" : "test_fanye",
-        "uid" : "93ad734b34cef532",
+        "uid" : "3a7d2549df5e1ddf",
         "parentUid" : "a0255b5097c7a9d4c1eb1e5e4e9820de",
         "status" : "passed",
         "time" : {
-          "start" : 1601035895586,
-          "stop" : 1601035895645,
-          "duration" : 59
+          "start" : 1601295848409,
+          "stop" : 1601295848475,
+          "duration" : 66
         },
         "flaky" : false,
         "newFailed" : false,

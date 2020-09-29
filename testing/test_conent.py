@@ -22,7 +22,8 @@ class Testcase:
             print(res.status_code)
             print(res.json()) #将返回的json数据转换成字典，然后打印出来
         with allure.step('进行断言'):
-            assert res.json()['data']['data'][0]["enterpriseName"]=='沙海科技有限公司'  #从返回值种取出数据，然后用此数据进行断言
+            assert res.status_code==200  #从返回值种取出数据，然后用此数据进行断言
+
     @allure.title('按企业名称查询')
     @allure.story('按企业名称查询')
     def test_indexfind(self,login):

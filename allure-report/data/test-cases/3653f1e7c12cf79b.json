@@ -1,0 +1,94 @@
+{
+  "uid" : "3653f1e7c12cf79b",
+  "name" : "按企业名称查询",
+  "fullName" : "testing.test_conent.Testcase#test_indexfind",
+  "historyId" : "30e259c24675a65ad4ff7b54f9c81e18",
+  "time" : {
+    "start" : 1600691242213,
+    "stop" : 1600691242281,
+    "duration" : 68
+  },
+  "description" : "内容管理-按企业名称查询",
+  "descriptionHtml" : "<p>内容管理-按企业名称查询</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1600691242055,
+      "stop" : 1600691242131,
+      "duration" : 76
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "内容管理-按企业名称查询",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "67898152f5a48685",
+      "name" : "stdout",
+      "source" : "67898152f5a48685.txt",
+      "type" : "text/plain",
+      "size" : 3144
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "内容管理"
+  }, {
+    "name" : "story",
+    "value" : "按企业名称查询"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testing"
+  }, {
+    "name" : "suite",
+    "value" : "test_conent"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EMV04FR"
+  }, {
+    "name" : "thread",
+    "value" : "24896-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testing.test_conent"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3653f1e7c12cf79b.json",
+  "parameterValues" : [ ]
+}

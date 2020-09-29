@@ -1,0 +1,177 @@
+{
+  "uid" : "f8b54161232951f4",
+  "name" : "test_index",
+  "fullName" : "testing.test_visit.Testcase#test_index",
+  "historyId" : "a141d1dcefb4fe7876966fb2ff876d8a",
+  "time" : {
+    "start" : 1601295848270,
+    "stop" : 1601295848337,
+    "duration" : 67
+  },
+  "description" : "线下拜访-进入线下拜访模块主页",
+  "descriptionHtml" : "<p>线下拜访-进入线下拜访模块主页</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1601295846209,
+      "stop" : 1601295846287,
+      "duration" : 78
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "线下拜访-进入线下拜访模块主页",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e66f920262ae344b",
+      "name" : "stdout",
+      "source" : "e66f920262ae344b.txt",
+      "type" : "text/plain",
+      "size" : 1531
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "获取拜访列表"
+  }, {
+    "name" : "feature",
+    "value" : "线下拜访"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testing"
+  }, {
+    "name" : "suite",
+    "value" : "test_visit"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EMV04FR"
+  }, {
+    "name" : "thread",
+    "value" : "13176-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testing.test_visit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "31ac922d067c6aef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601035895448,
+        "stop" : 1601035895509,
+        "duration" : 61
+      }
+    }, {
+      "uid" : "378712176072eda9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601035765507,
+        "stop" : 1601035765576,
+        "duration" : 69
+      }
+    }, {
+      "uid" : "d2f4cfab60e7ca8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601035586320,
+        "stop" : 1601035586383,
+        "duration" : 63
+      }
+    }, {
+      "uid" : "50ee57d36a6b7074",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 172 == 77",
+      "time" : {
+        "start" : 1601035134909,
+        "stop" : 1601035134971,
+        "duration" : 62
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "1b2fb5b6a976cf64",
+        "reportUrl" : "http://192.168.3.97:8080/job/%E5%8C%BB%E8%8D%AF%E4%BB%A3%E8%A1%A8%E5%B7%A5%E4%BD%9C%E5%8F%B0%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/124/allure/#testresult/1b2fb5b6a976cf64",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601035895448,
+          "stop" : 1601035895509,
+          "duration" : 61
+        }
+      }, {
+        "uid" : "9b18e75e60ca3d28",
+        "reportUrl" : "http://192.168.3.97:8080/job/%E5%8C%BB%E8%8D%AF%E4%BB%A3%E8%A1%A8%E5%B7%A5%E4%BD%9C%E5%8F%B0%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/123/allure/#testresult/9b18e75e60ca3d28",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601035765507,
+          "stop" : 1601035765576,
+          "duration" : 69
+        }
+      }, {
+        "uid" : "784c93c944c18836",
+        "reportUrl" : "http://192.168.3.97:8080/job/%E5%8C%BB%E8%8D%AF%E4%BB%A3%E8%A1%A8%E5%B7%A5%E4%BD%9C%E5%8F%B0%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/122/allure/#testresult/784c93c944c18836",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601035586320,
+          "stop" : 1601035586383,
+          "duration" : 63
+        }
+      }, {
+        "uid" : "aa53403febae166c",
+        "reportUrl" : "http://192.168.3.97:8080/job/%E5%8C%BB%E8%8D%AF%E4%BB%A3%E8%A1%A8%E5%B7%A5%E4%BD%9C%E5%8F%B0%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/121/allure/#testresult/aa53403febae166c",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 172 == 77",
+        "time" : {
+          "start" : 1601035134909,
+          "stop" : 1601035134971,
+          "duration" : 62
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f8b54161232951f4.json",
+  "parameterValues" : [ ]
+}

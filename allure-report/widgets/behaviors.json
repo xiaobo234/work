@@ -12,6 +12,17 @@
       "total" : 10
     }
   }, {
+    "uid" : "e15977433c66c6122f6006a349a82794",
+    "name" : "租户管理",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 8
+    }
+  }, {
     "uid" : "9e7ca7adea897bfb6feda1bc382f4dd7",
     "name" : "模板管理",
     "statistic" : {
@@ -21,17 +32,6 @@
       "passed" : 6,
       "unknown" : 0,
       "total" : 6
-    }
-  }, {
-    "uid" : "e15977433c66c6122f6006a349a82794",
-    "name" : "租户管理",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 5,
-      "unknown" : 0,
-      "total" : 5
     }
   }, {
     "uid" : "718fc75e293e66d156f05cf21d6deac2",
