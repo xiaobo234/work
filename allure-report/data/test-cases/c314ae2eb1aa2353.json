@@ -1,0 +1,77 @@
+{
+  "uid" : "c314ae2eb1aa2353",
+  "name" : "test_enable",
+  "fullName" : "testing.test_zuhu.Testcase#test_enable",
+  "historyId" : "94b2aa746bcf424a46d9ac107de69a60",
+  "time" : {
+    "start" : 1601295848687,
+    "stop" : 1601295848751,
+    "duration" : 64
+  },
+  "description" : "租户管理-启用租户",
+  "descriptionHtml" : "<p>租户管理-启用租户</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1601295846209,
+      "stop" : 1601295846287,
+      "duration" : 78
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "租户管理"
+  }, {
+    "name" : "story",
+    "value" : "添加企业微信部门与saas租户的mapping关系"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testing"
+  }, {
+    "name" : "suite",
+    "value" : "test_zuhu"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EMV04FR"
+  }, {
+    "name" : "thread",
+    "value" : "13176-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testing.test_zuhu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c314ae2eb1aa2353.json",
+  "parameterValues" : [ ]
+}

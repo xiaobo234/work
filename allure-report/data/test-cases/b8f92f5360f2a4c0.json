@@ -1,0 +1,139 @@
+{
+  "uid" : "b8f92f5360f2a4c0",
+  "name" : "进入用户管理主页",
+  "fullName" : "testing.test_zuhu.Testcase#test_userindex",
+  "historyId" : "e593fb6baab3087bcb847e70849dca14",
+  "time" : {
+    "start" : 1598235166229,
+    "stop" : 1598235166324,
+    "duration" : 95
+  },
+  "description" : "租户管理-进入用户管理主页",
+  "descriptionHtml" : "<p>租户管理-进入用户管理主页</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1598235163841,
+      "stop" : 1598235164032,
+      "duration" : 191
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "租户管理-进入用户管理主页",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "第一步：准确请求数据",
+      "time" : {
+        "start" : 1598235166229,
+        "stop" : 1598235166229,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "第二步：请求",
+      "time" : {
+        "start" : 1598235166229,
+        "stop" : 1598235166321,
+        "duration" : 92
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "第三步：断言",
+      "time" : {
+        "start" : 1598235166321,
+        "stop" : 1598235166323,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "4915860c9c15c34a",
+      "name" : "stdout",
+      "source" : "4915860c9c15c34a.txt",
+      "type" : "text/plain",
+      "size" : 2153
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "进入用户管理主页"
+  }, {
+    "name" : "feature",
+    "value" : "租户管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testing"
+  }, {
+    "name" : "suite",
+    "value" : "test_zuhu"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EMV04FR"
+  }, {
+    "name" : "thread",
+    "value" : "23004-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testing.test_zuhu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b8f92f5360f2a4c0.json",
+  "parameterValues" : [ ]
+}

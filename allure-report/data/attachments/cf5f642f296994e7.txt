@@ -1,0 +1,2 @@
+200
+{'code': 0, 'msg': 'OK', 'data': {'totalCount': 1, 'data': [{'userUid': 30, 'userId': '456', 'userName': '代表A', 'mobile': '17310141813', 'deptName': '医百测试平台', 'enterpriseName': '医百测试平台', 'customerCount': 8, 'sendTimes': 40, 'avgSendTimes': 0, 'openPv': 62, 'readPv': 183, 'forwardPv': 6}]}}

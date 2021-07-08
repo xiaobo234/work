@@ -1,0 +1,94 @@
+{
+  "uid" : "241151c774fc6197",
+  "name" : "test_enterprises",
+  "fullName" : "testing.test_zuhu.Testcase#test_enterprises",
+  "historyId" : "dc21a149ad9117b9e3a5431a25858b00",
+  "time" : {
+    "start" : 1603107421865,
+    "stop" : 1603107421926,
+    "duration" : 61
+  },
+  "description" : "租户管理-租户下拉绑定列表",
+  "descriptionHtml" : "<p>租户管理-租户下拉绑定列表</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1603107419481,
+      "stop" : 1603107419567,
+      "duration" : 86
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "租户管理-租户下拉绑定列表",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4a041307ccdb76c6",
+      "name" : "stdout",
+      "source" : "4a041307ccdb76c6.txt",
+      "type" : "text/plain",
+      "size" : 896
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "获取租户下拉绑定列表"
+  }, {
+    "name" : "feature",
+    "value" : "租户管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testing"
+  }, {
+    "name" : "suite",
+    "value" : "test_zuhu"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EMV04FR"
+  }, {
+    "name" : "thread",
+    "value" : "25896-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testing.test_zuhu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "241151c774fc6197.json",
+  "parameterValues" : [ ]
+}

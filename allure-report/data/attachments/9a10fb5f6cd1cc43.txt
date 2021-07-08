@@ -1,0 +1,1 @@
+{'code': 0, 'msg': 'OK', 'data': {'totalCount': 1, 'data': [{'id': 4, 'templateType': 1, 'templateName': '工作台模板', 'enterpriseId': 19, 'deleted': False, 'creatorId': '8', 'createTime': 1600773419000, 'updaterId': '8', 'updateTime': 1600773419000}]}}

@@ -1,0 +1,282 @@
+{
+  "uid" : "b0fd967d9ae96fc3",
+  "name" : "收到客户按钮功能",
+  "fullName" : "testing.test_conent.Testcase#test_receive",
+  "historyId" : "de33cf06fe5b60c9fdf2544b350bb34a",
+  "time" : {
+    "start" : 1622188964893,
+    "stop" : 1622188964999,
+    "duration" : 106
+  },
+  "description" : "内容管理-收到客户按钮功能",
+  "descriptionHtml" : "<p>内容管理-收到客户按钮功能</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'sailor' == '暖阳'\n  - 暖阳\n  + sailor",
+  "statusTrace" : "self = <test_conent.Testcase object at 0x0000020F30D8F4C8>\nlogin = '9105efce-8420-4f25-a7f8-cc50fa524965'\n\n    @allure.title('收到客户按钮功能')\n    @allure.story('收到客户按钮')\n    def test_receive(self,login):\n        '''内容管理-收到客户按钮功能'''\n        header = {\n            \"content-type\": \"application/json\",\n            \"sessionId\": login,\n        }\n        url='https://npro.test.100url.cn/adminapi/customer/customers?taskId=106&pageNo=1&pageSize=10&enterpriseId=&externalUserName=&externalUserMobile=&eventType=1'\n        res = requests.get(url=url, headers=header)\n        print(res.status_code)\n        print(res.json()) #将返回的json数据转换成字典，然后打印出来\n>       assert res.json()['data']['data'][0][\"userName\"]=='暖阳'  #从返回值种取出数据，然后用此数据进行断言\nE       AssertionError: assert 'sailor' == '暖阳'\nE         - 暖阳\nE         + sailor\n\ntesting\\test_conent.py:105: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1622188963974,
+      "stop" : 1622188964080,
+      "duration" : 106
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "内容管理-收到客户按钮功能",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 'sailor' == '暖阳'\n  - 暖阳\n  + sailor",
+    "statusTrace" : "self = <test_conent.Testcase object at 0x0000020F30D8F4C8>\nlogin = '9105efce-8420-4f25-a7f8-cc50fa524965'\n\n    @allure.title('收到客户按钮功能')\n    @allure.story('收到客户按钮')\n    def test_receive(self,login):\n        '''内容管理-收到客户按钮功能'''\n        header = {\n            \"content-type\": \"application/json\",\n            \"sessionId\": login,\n        }\n        url='https://npro.test.100url.cn/adminapi/customer/customers?taskId=106&pageNo=1&pageSize=10&enterpriseId=&externalUserName=&externalUserMobile=&eventType=1'\n        res = requests.get(url=url, headers=header)\n        print(res.status_code)\n        print(res.json()) #将返回的json数据转换成字典，然后打印出来\n>       assert res.json()['data']['data'][0][\"userName\"]=='暖阳'  #从返回值种取出数据，然后用此数据进行断言\nE       AssertionError: assert 'sailor' == '暖阳'\nE         - 暖阳\nE         + sailor\n\ntesting\\test_conent.py:105: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "193b7df7c8bc134a",
+      "name" : "stdout",
+      "source" : "193b7df7c8bc134a.txt",
+      "type" : "text/plain",
+      "size" : 3004
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "收到客户按钮"
+  }, {
+    "name" : "feature",
+    "value" : "内容管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testing"
+  }, {
+    "name" : "suite",
+    "value" : "test_conent"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EMV04FR"
+  }, {
+    "name" : "thread",
+    "value" : "11724-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testing.test_conent"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "64bc90534cdd8a2e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'sailor' == '暖阳'\n  - 暖阳\n  + sailor",
+      "time" : {
+        "start" : 1622106506423,
+        "stop" : 1622106506518,
+        "duration" : 95
+      }
+    }, {
+      "uid" : "bd24b5d282de1fc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603108364242,
+        "stop" : 1603108364311,
+        "duration" : 69
+      }
+    }, {
+      "uid" : "d1b04f7375c0d355",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603107420017,
+        "stop" : 1603107420082,
+        "duration" : 65
+      }
+    }, {
+      "uid" : "ea9134dad26900bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603107137986,
+        "stop" : 1603107138054,
+        "duration" : 68
+      }
+    }, {
+      "uid" : "614a9f86987f4866",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601295846735,
+        "stop" : 1601295846807,
+        "duration" : 72
+      }
+    }, {
+      "uid" : "dbb7a4c343ac654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601035893957,
+        "stop" : 1601035894026,
+        "duration" : 69
+      }
+    }, {
+      "uid" : "46bca5efb261df2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601035763983,
+        "stop" : 1601035764049,
+        "duration" : 66
+      }
+    }, {
+      "uid" : "14967b6d3f04a95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601035584862,
+        "stop" : 1601035584932,
+        "duration" : 70
+      }
+    }, {
+      "uid" : "98af6425822b810",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601035133338,
+        "stop" : 1601035133402,
+        "duration" : 64
+      }
+    }, {
+      "uid" : "589e621ea5d46191",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600861755451,
+        "stop" : 1600861755524,
+        "duration" : 73
+      }
+    }, {
+      "uid" : "554b1ff0c05582d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600691548743,
+        "stop" : 1600691548807,
+        "duration" : 64
+      }
+    }, {
+      "uid" : "362c916ba8867422",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600691242581,
+        "stop" : 1600691242648,
+        "duration" : 67
+      }
+    }, {
+      "uid" : "f2056c5375b8e79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600690717980,
+        "stop" : 1600690718046,
+        "duration" : 66
+      }
+    }, {
+      "uid" : "4936edf7029eb64e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600690397364,
+        "stop" : 1600690397430,
+        "duration" : 66
+      }
+    }, {
+      "uid" : "f489ef317240ecc3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600690252783,
+        "stop" : 1600690252849,
+        "duration" : 66
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 14,
+        "unknown" : 0,
+        "total" : 16
+      },
+      "items" : [ {
+        "uid" : "cb0ae3ccb4778292",
+        "reportUrl" : "http://192.168.3.144:8080/job/%E5%8C%BB%E8%8D%AF%E4%BB%A3%E8%A1%A8%E5%B7%A5%E4%BD%9C%E5%8F%B0%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/129/allure/#testresult/cb0ae3ccb4778292",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'sailor' == '暖阳'\n  - 暖阳\n  + sailor",
+        "time" : {
+          "start" : 1622106506423,
+          "stop" : 1622106506518,
+          "duration" : 95
+        }
+      }, {
+        "uid" : "9e4882d7f14b4ddb",
+        "reportUrl" : "http://192.168.3.144:8080/job/%E5%8C%BB%E8%8D%AF%E4%BB%A3%E8%A1%A8%E5%B7%A5%E4%BD%9C%E5%8F%B0%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/128/allure/#testresult/9e4882d7f14b4ddb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603108364242,
+          "stop" : 1603108364311,
+          "duration" : 69
+        }
+      }, {
+        "uid" : "5b08d970c4e3d328",
+        "reportUrl" : "http://192.168.3.97:8080/job/%E5%8C%BB%E8%8D%AF%E4%BB%A3%E8%A1%A8%E5%B7%A5%E4%BD%9C%E5%8F%B0%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/127/allure/#testresult/5b08d970c4e3d328",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603107420017,
+          "stop" : 1603107420082,
+          "duration" : 65
+        }
+      }, {
+        "uid" : "813f585c7140743",
+        "reportUrl" : "http://192.168.3.97:8080/job/%E5%8C%BB%E8%8D%AF%E4%BB%A3%E8%A1%A8%E5%B7%A5%E4%BD%9C%E5%8F%B0%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/126/allure/#testresult/813f585c7140743",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603107137986,
+          "stop" : 1603107138054,
+          "duration" : 68
+        }
+      }, {
+        "uid" : "a7d87393357f4e89",
+        "reportUrl" : "http://192.168.3.97:8080/job/%E5%8C%BB%E8%8D%AF%E4%BB%A3%E8%A1%A8%E5%B7%A5%E4%BD%9C%E5%8F%B0%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/125/allure/#testresult/a7d87393357f4e89",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601295846735,
+          "stop" : 1601295846807,
+          "duration" : 72
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b0fd967d9ae96fc3.json",
+  "parameterValues" : [ ]
+}

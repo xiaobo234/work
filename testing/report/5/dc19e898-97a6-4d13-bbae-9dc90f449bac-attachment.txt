@@ -1,0 +1,2 @@
+200
+{'code': 0, 'msg': 'OK', 'data': {'totalCount': 2, 'data': [{'userUid': 33, 'userId': '567', 'userName': '代表B', 'mobile': '15232637806', 'deptName': '医百测试平台', 'enterpriseName': '医百测试平台', 'customerCount': 0, 'sendTimes': 0, 'avgSendTimes': 0, 'openPv': 0, 'readPv': 0, 'forwardPv': 0}, {'userUid': 26, 'userId': 'xiaobo', 'userName': '管理员', 'mobile': '', 'deptName': '医百测试平台', 'enterpriseName': '医百测试平台', 'customerCount': 2, 'sendTimes': 4, 'avgSendTimes': 0, 'openPv': 2, 'readPv': 7, 'forwardPv': 0}]}}

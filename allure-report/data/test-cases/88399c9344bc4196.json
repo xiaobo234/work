@@ -1,0 +1,94 @@
+{
+  "uid" : "88399c9344bc4196",
+  "name" : "test_index",
+  "fullName" : "testing.test_visit.Testcase#test_index",
+  "historyId" : "a141d1dcefb4fe7876966fb2ff876d8a",
+  "time" : {
+    "start" : 1601035895448,
+    "stop" : 1601035895509,
+    "duration" : 61
+  },
+  "description" : "线下拜访-进入线下拜访模块主页",
+  "descriptionHtml" : "<p>线下拜访-进入线下拜访模块主页</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1601035893434,
+      "stop" : 1601035893525,
+      "duration" : 91
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "线下拜访-进入线下拜访模块主页",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "febfdc009d8b947a",
+      "name" : "stdout",
+      "source" : "febfdc009d8b947a.txt",
+      "type" : "text/plain",
+      "size" : 1573
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "线下拜访"
+  }, {
+    "name" : "story",
+    "value" : "获取拜访列表"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testing"
+  }, {
+    "name" : "suite",
+    "value" : "test_visit"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EMV04FR"
+  }, {
+    "name" : "thread",
+    "value" : "25856-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testing.test_visit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "88399c9344bc4196.json",
+  "parameterValues" : [ ]
+}

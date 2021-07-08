@@ -24,7 +24,7 @@ class Testcase:
             print(res.status_code)
             print(res.json()) #将返回的json数据转换成字典，然后打印出来
         with allure.step('第三步：断言'):
-            assert res.json()['data']['data'][0]["wechatDeptName"]=='医百测试平台'  #从返回值种取出数据，然后用此数据进行断言
+            assert res.json()['data']['data'][0]["wechatDeptName"]=='上海倪倪科技事务所'  #从返回值种取出数据，然后用此数据进行断言
     @allure.story('获取租户下拉绑定列表')
     def test_enterprises(self, login):
         '''租户管理-租户下拉绑定列表'''

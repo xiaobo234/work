@@ -1,0 +1,192 @@
+{
+  "uid" : "fcf760bf6d395a62",
+  "name" : "test_enable",
+  "fullName" : "testing.test_zuhu.Testcase#test_enable",
+  "historyId" : "94b2aa746bcf424a46d9ac107de69a60",
+  "time" : {
+    "start" : 1622188967530,
+    "stop" : 1622188967603,
+    "duration" : 73
+  },
+  "description" : "租户管理-启用租户",
+  "descriptionHtml" : "<p>租户管理-启用租户</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1622188963974,
+      "stop" : 1622188964080,
+      "duration" : 106
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "租户管理-启用租户",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "132b98623c8a5460",
+      "name" : "stdout",
+      "source" : "132b98623c8a5460.txt",
+      "type" : "text/plain",
+      "size" : 39
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "租户管理"
+  }, {
+    "name" : "story",
+    "value" : "启用租户"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testing"
+  }, {
+    "name" : "suite",
+    "value" : "test_zuhu"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EMV04FR"
+  }, {
+    "name" : "thread",
+    "value" : "11724-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testing.test_zuhu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "550c760baa4dd752",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622106509264,
+        "stop" : 1622106509360,
+        "duration" : 96
+      }
+    }, {
+      "uid" : "994b896df048e7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603108366338,
+        "stop" : 1603108366410,
+        "duration" : 72
+      }
+    }, {
+      "uid" : "dcb78f0a164a7df8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603107421998,
+        "stop" : 1603107422067,
+        "duration" : 69
+      }
+    }, {
+      "uid" : "36cad5a30cac6ac0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603107140050,
+        "stop" : 1603107140121,
+        "duration" : 71
+      }
+    }, {
+      "uid" : "c314ae2eb1aa2353",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601295848687,
+        "stop" : 1601295848751,
+        "duration" : 64
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "8bdaf5c44dad6800",
+        "reportUrl" : "http://192.168.3.144:8080/job/%E5%8C%BB%E8%8D%AF%E4%BB%A3%E8%A1%A8%E5%B7%A5%E4%BD%9C%E5%8F%B0%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/129/allure/#testresult/8bdaf5c44dad6800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622106509264,
+          "stop" : 1622106509360,
+          "duration" : 96
+        }
+      }, {
+        "uid" : "d5b053a33f34244d",
+        "reportUrl" : "http://192.168.3.144:8080/job/%E5%8C%BB%E8%8D%AF%E4%BB%A3%E8%A1%A8%E5%B7%A5%E4%BD%9C%E5%8F%B0%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/128/allure/#testresult/d5b053a33f34244d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603108366338,
+          "stop" : 1603108366410,
+          "duration" : 72
+        }
+      }, {
+        "uid" : "956eea816c541399",
+        "reportUrl" : "http://192.168.3.97:8080/job/%E5%8C%BB%E8%8D%AF%E4%BB%A3%E8%A1%A8%E5%B7%A5%E4%BD%9C%E5%8F%B0%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/127/allure/#testresult/956eea816c541399",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603107421998,
+          "stop" : 1603107422067,
+          "duration" : 69
+        }
+      }, {
+        "uid" : "944dc0c95b0fd18d",
+        "reportUrl" : "http://192.168.3.97:8080/job/%E5%8C%BB%E8%8D%AF%E4%BB%A3%E8%A1%A8%E5%B7%A5%E4%BD%9C%E5%8F%B0%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/126/allure/#testresult/944dc0c95b0fd18d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603107140050,
+          "stop" : 1603107140121,
+          "duration" : 71
+        }
+      }, {
+        "uid" : "3c2e88010056402e",
+        "reportUrl" : "http://192.168.3.97:8080/job/%E5%8C%BB%E8%8D%AF%E4%BB%A3%E8%A1%A8%E5%B7%A5%E4%BD%9C%E5%8F%B0%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/125/allure/#testresult/3c2e88010056402e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601295848687,
+          "stop" : 1601295848751,
+          "duration" : 64
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fcf760bf6d395a62.json",
+  "parameterValues" : [ ]
+}

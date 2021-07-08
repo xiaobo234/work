@@ -1,0 +1,94 @@
+{
+  "uid" : "7c0ac49ce4fe461b",
+  "name" : "test_index",
+  "fullName" : "testing.test_usermagage.Testcase#test_index",
+  "historyId" : "450f535221230f76264b953f04279e34",
+  "time" : {
+    "start" : 1603107421507,
+    "stop" : 1603107421571,
+    "duration" : 64
+  },
+  "description" : "线下拜访-进入线下拜访模块主页",
+  "descriptionHtml" : "<p>线下拜访-进入线下拜访模块主页</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1603107419481,
+      "stop" : 1603107419567,
+      "duration" : 86
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "线下拜访-进入线下拜访模块主页",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "29ab29ab489e5554",
+      "name" : "stdout",
+      "source" : "29ab29ab489e5554.txt",
+      "type" : "text/plain",
+      "size" : 1560
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户管理"
+  }, {
+    "name" : "story",
+    "value" : "获取拜访列表"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testing"
+  }, {
+    "name" : "suite",
+    "value" : "test_usermagage"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EMV04FR"
+  }, {
+    "name" : "thread",
+    "value" : "25896-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testing.test_usermagage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7c0ac49ce4fe461b.json",
+  "parameterValues" : [ ]
+}

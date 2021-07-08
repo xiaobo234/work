@@ -1,0 +1,2 @@
+200
+{'code': 0, 'msg': 'OK', 'data': {'totalCount': 10, 'data': [{'typeId': 1, 'typeName': '线下拜访'}, {'typeId': 2, 'typeName': '公众号任务'}, {'typeId': 3, 'typeName': '核销管理'}, {'typeId': 4, 'typeName': '线下会议签到'}, {'typeId': 5, 'typeName': 'SAAS任务管理'}, {'typeId': 6, 'typeName': 'SAAS任务'}, {'typeId': 7, 'typeName': '工作台'}, {'typeId': 8, 'typeName': '客户中心'}, {'typeId': 9, 'typeName': '公众号任务管理'}, {'typeId': 10, 'typeName': '客户管理'}]}}

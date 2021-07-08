@@ -1,0 +1,281 @@
+{
+  "uid" : "2be0d15df89e8443",
+  "name" : "获取模板列表",
+  "fullName" : "testing.test_template.Testcase#test_temple",
+  "historyId" : "64b459d357b5932b083376d14f90e9bf",
+  "time" : {
+    "start" : 1622188966635,
+    "stop" : 1622188966701,
+    "duration" : 66
+  },
+  "description" : "模板管理-开通功能列表",
+  "descriptionHtml" : "<p>模板管理-开通功能列表</p>\n",
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'data'",
+  "statusTrace" : "self = <test_template.Testcase object at 0x0000020F30D1D2C8>\nlogin = '9105efce-8420-4f25-a7f8-cc50fa524965'\n\n    @allure.title('获取模板列表')\n    @allure.story('获取模板的列表')\n    def test_temple(self,login):\n        '''模板管理-开通功能列表'''\n        with allure.step('第一步：准确请求数据'):\n            header = {\n                \"content-type\": \"application/json\",\n                \"sessionId\": login,\n            }\n            url = 'https://npro.test.100url.cn/adminapi/template/get/19'\n        with allure.step('第二步：请求'):\n            res = requests.get(url=url, headers=header)\n            print(res.json()) #将返回的json数据转换成字典，然后打印出来\n        with allure.step('第三步：断言'):\n>           assert res.json()['data']['data'][0]['enterpriseId']==19  #从返回值种取出数据，然后用此数据进行断言\nE           KeyError: 'data'\n\ntesting\\test_template.py:52: KeyError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1622188963974,
+      "stop" : 1622188964080,
+      "duration" : 106
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "模板管理-开通功能列表",
+    "status" : "broken",
+    "statusMessage" : "KeyError: 'data'",
+    "statusTrace" : "self = <test_template.Testcase object at 0x0000020F30D1D2C8>\nlogin = '9105efce-8420-4f25-a7f8-cc50fa524965'\n\n    @allure.title('获取模板列表')\n    @allure.story('获取模板的列表')\n    def test_temple(self,login):\n        '''模板管理-开通功能列表'''\n        with allure.step('第一步：准确请求数据'):\n            header = {\n                \"content-type\": \"application/json\",\n                \"sessionId\": login,\n            }\n            url = 'https://npro.test.100url.cn/adminapi/template/get/19'\n        with allure.step('第二步：请求'):\n            res = requests.get(url=url, headers=header)\n            print(res.json()) #将返回的json数据转换成字典，然后打印出来\n        with allure.step('第三步：断言'):\n>           assert res.json()['data']['data'][0]['enterpriseId']==19  #从返回值种取出数据，然后用此数据进行断言\nE           KeyError: 'data'\n\ntesting\\test_template.py:52: KeyError",
+    "steps" : [ {
+      "name" : "第一步：准确请求数据",
+      "time" : {
+        "start" : 1622188966635,
+        "stop" : 1622188966635,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "第二步：请求",
+      "time" : {
+        "start" : 1622188966635,
+        "stop" : 1622188966700,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "第三步：断言",
+      "time" : {
+        "start" : 1622188966700,
+        "stop" : 1622188966700,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "KeyError: 'data'\n",
+      "statusTrace" : "  File \"C:\\Users\\Administrator\\PycharmProjects\\work\\testing\\test_template.py\", line 52, in test_temple\n    assert res.json()['data']['data'][0]['enterpriseId']==19  #从返回值种取出数据，然后用此数据进行断言\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "a76d4a80acbe2bec",
+      "name" : "stdout",
+      "source" : "a76d4a80acbe2bec.txt",
+      "type" : "text/plain",
+      "size" : 59
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "获取模板的列表"
+  }, {
+    "name" : "feature",
+    "value" : "模板管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testing"
+  }, {
+    "name" : "suite",
+    "value" : "test_template"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EMV04FR"
+  }, {
+    "name" : "thread",
+    "value" : "11724-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testing.test_template"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e8721f2f0671c2b6",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'data'",
+      "time" : {
+        "start" : 1622106508321,
+        "stop" : 1622106508407,
+        "duration" : 86
+      }
+    }, {
+      "uid" : "df95f3b1b3ce72d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603108365540,
+        "stop" : 1603108365613,
+        "duration" : 73
+      }
+    }, {
+      "uid" : "b8d5da3ad10fa6ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603107421234,
+        "stop" : 1603107421296,
+        "duration" : 62
+      }
+    }, {
+      "uid" : "6da4a28b7d344e94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603107139261,
+        "stop" : 1603107139322,
+        "duration" : 61
+      }
+    }, {
+      "uid" : "1467ddb8b7e59867",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601295847995,
+        "stop" : 1601295848060,
+        "duration" : 65
+      }
+    }, {
+      "uid" : "2b1ad171e5018a70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601035895173,
+        "stop" : 1601035895235,
+        "duration" : 62
+      }
+    }, {
+      "uid" : "1929a1c1cfdb53cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601035765240,
+        "stop" : 1601035765305,
+        "duration" : 65
+      }
+    }, {
+      "uid" : "855e664b850c2042",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601035586061,
+        "stop" : 1601035586122,
+        "duration" : 61
+      }
+    }, {
+      "uid" : "bce8a64a1f74ced1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601035134638,
+        "stop" : 1601035134704,
+        "duration" : 66
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "473996d1c03e60bd",
+        "reportUrl" : "http://192.168.3.144:8080/job/%E5%8C%BB%E8%8D%AF%E4%BB%A3%E8%A1%A8%E5%B7%A5%E4%BD%9C%E5%8F%B0%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/129/allure/#testresult/473996d1c03e60bd",
+        "status" : "broken",
+        "statusDetails" : "KeyError: 'data'",
+        "time" : {
+          "start" : 1622106508321,
+          "stop" : 1622106508407,
+          "duration" : 86
+        }
+      }, {
+        "uid" : "2828adfe8e72cf5c",
+        "reportUrl" : "http://192.168.3.144:8080/job/%E5%8C%BB%E8%8D%AF%E4%BB%A3%E8%A1%A8%E5%B7%A5%E4%BD%9C%E5%8F%B0%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/128/allure/#testresult/2828adfe8e72cf5c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603108365540,
+          "stop" : 1603108365613,
+          "duration" : 73
+        }
+      }, {
+        "uid" : "f5bcaa83271df42c",
+        "reportUrl" : "http://192.168.3.97:8080/job/%E5%8C%BB%E8%8D%AF%E4%BB%A3%E8%A1%A8%E5%B7%A5%E4%BD%9C%E5%8F%B0%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/127/allure/#testresult/f5bcaa83271df42c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603107421234,
+          "stop" : 1603107421296,
+          "duration" : 62
+        }
+      }, {
+        "uid" : "142751841f7a34b6",
+        "reportUrl" : "http://192.168.3.97:8080/job/%E5%8C%BB%E8%8D%AF%E4%BB%A3%E8%A1%A8%E5%B7%A5%E4%BD%9C%E5%8F%B0%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/126/allure/#testresult/142751841f7a34b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603107139261,
+          "stop" : 1603107139322,
+          "duration" : 61
+        }
+      }, {
+        "uid" : "7ed10282e97eba26",
+        "reportUrl" : "http://192.168.3.97:8080/job/%E5%8C%BB%E8%8D%AF%E4%BB%A3%E8%A1%A8%E5%B7%A5%E4%BD%9C%E5%8F%B0%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/125/allure/#testresult/7ed10282e97eba26",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601295847995,
+          "stop" : 1601295848060,
+          "duration" : 65
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2be0d15df89e8443.json",
+  "parameterValues" : [ ]
+}

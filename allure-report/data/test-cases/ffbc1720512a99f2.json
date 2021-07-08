@@ -1,0 +1,94 @@
+{
+  "uid" : "ffbc1720512a99f2",
+  "name" : "test_fanye",
+  "fullName" : "testing.test_daibiao.Testcase#test_fanye",
+  "historyId" : "869baf5fe13fbfd0ea683adcaa886b01",
+  "time" : {
+    "start" : 1598012232149,
+    "stop" : 1598012232225,
+    "duration" : 76
+  },
+  "description" : "代表管理-翻页",
+  "descriptionHtml" : "<p>代表管理-翻页</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1598012230841,
+      "stop" : 1598012230930,
+      "duration" : 89
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "代表管理-翻页",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c1c5cde3d6717da0",
+      "name" : "stdout",
+      "source" : "c1c5cde3d6717da0.txt",
+      "type" : "text/plain",
+      "size" : 3501
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "翻页"
+  }, {
+    "name" : "feature",
+    "value" : "代表管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testing"
+  }, {
+    "name" : "suite",
+    "value" : "test_daibiao"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EMV04FR"
+  }, {
+    "name" : "thread",
+    "value" : "6236-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testing.test_daibiao"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ffbc1720512a99f2.json",
+  "parameterValues" : [ ]
+}
